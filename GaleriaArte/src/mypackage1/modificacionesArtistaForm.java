@@ -4,13 +4,9 @@ import org.apache.struts.action.ActionErrors;
 import org.apache.struts.action.ActionError;
 import org.apache.struts.action.ActionMapping;
 import javax.servlet.http.HttpServletRequest;
-import java.util.ArrayList;
 
-public class listadoForm extends ActionForm 
+public class modificacionesArtistaForm extends ActionForm 
 {
-  ArrayList tabla;
-  String cod;
-
   /**
    * Reset all properties to their default values.
    * @param mapping The ActionMapping used to select this instance.
@@ -30,25 +26,5 @@ public class listadoForm extends ActionForm
   public ActionErrors validate(ActionMapping mapping, HttpServletRequest request)
   {
     return super.validate(mapping, request);
-  }
-
-  public ArrayList getTabla()
-  {
-    return tabla;
-  }
-
-  public void setTabla(ArrayList newTabla)
-  {
-    tabla = newTabla;
-  }
-
-  public String getCod()
-  {
-    return cod;
-  }
-
-  public void setCod(String newCod)
-  {
-    cod = newCod;
   }
 }

@@ -50,7 +50,7 @@ public class _propietario extends oracle.jsp.runtime.HttpJsp {
       out.write(__jsp_StaticText.text[1]);
       out.write(__jsp_StaticText.text[2]);
       out.write(__jsp_StaticText.text[3]);
-      /*@lineinfo:translated-code*//*@lineinfo:35^7*/      {
+      /*@lineinfo:translated-code*//*@lineinfo:35^13*/      {
         org.apache.struts.taglib.html.FormTag __jsp_taghandler_1=(org.apache.struts.taglib.html.FormTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.html.FormTag.class,"org.apache.struts.taglib.html.FormTag action");
         __jsp_taghandler_1.setParent(null);
         __jsp_taghandler_1.setAction("/navbar");
@@ -60,12 +60,12 @@ public class _propietario extends oracle.jsp.runtime.HttpJsp {
           do {
             /*@lineinfo:generated-code*/
             out.write(__jsp_StaticText.text[4]);
-            /*@lineinfo:translated-code*//*@lineinfo:41^17*/            {
+            /*@lineinfo:translated-code*//*@lineinfo:41^20*/            {
               org.apache.struts.taglib.html.SubmitTag __jsp_taghandler_2=(org.apache.struts.taglib.html.SubmitTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.html.SubmitTag.class,"org.apache.struts.taglib.html.SubmitTag property styleClass value");
               __jsp_taghandler_2.setParent(__jsp_taghandler_1);
               __jsp_taghandler_2.setProperty("boton");
               __jsp_taghandler_2.setStyleClass("btn btn-default btn-link");
-              __jsp_taghandler_2.setValue("Artista");
+              __jsp_taghandler_2.setValue("Dashboard");
               __jsp_tag_starteval=__jsp_taghandler_2.doStartTag();
               if (OracleJspRuntime.checkStartBodyTagEval(__jsp_tag_starteval))
               {
@@ -80,12 +80,12 @@ public class _propietario extends oracle.jsp.runtime.HttpJsp {
             }
             /*@lineinfo:generated-code*/
             out.write(__jsp_StaticText.text[5]);
-            /*@lineinfo:translated-code*//*@lineinfo:47^20*/            {
+            /*@lineinfo:translated-code*//*@lineinfo:47^17*/            {
               org.apache.struts.taglib.html.SubmitTag __jsp_taghandler_3=(org.apache.struts.taglib.html.SubmitTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.html.SubmitTag.class,"org.apache.struts.taglib.html.SubmitTag property styleClass value");
               __jsp_taghandler_3.setParent(__jsp_taghandler_1);
               __jsp_taghandler_3.setProperty("boton");
               __jsp_taghandler_3.setStyleClass("btn btn-default btn-link");
-              __jsp_taghandler_3.setValue("Categoría");
+              __jsp_taghandler_3.setValue("Artista");
               __jsp_tag_starteval=__jsp_taghandler_3.doStartTag();
               if (OracleJspRuntime.checkStartBodyTagEval(__jsp_tag_starteval))
               {
@@ -105,7 +105,7 @@ public class _propietario extends oracle.jsp.runtime.HttpJsp {
               __jsp_taghandler_4.setParent(__jsp_taghandler_1);
               __jsp_taghandler_4.setProperty("boton");
               __jsp_taghandler_4.setStyleClass("btn btn-default btn-link");
-              __jsp_taghandler_4.setValue("Comprador");
+              __jsp_taghandler_4.setValue("Categoría");
               __jsp_tag_starteval=__jsp_taghandler_4.doStartTag();
               if (OracleJspRuntime.checkStartBodyTagEval(__jsp_tag_starteval))
               {
@@ -125,7 +125,7 @@ public class _propietario extends oracle.jsp.runtime.HttpJsp {
               __jsp_taghandler_5.setParent(__jsp_taghandler_1);
               __jsp_taghandler_5.setProperty("boton");
               __jsp_taghandler_5.setStyleClass("btn btn-default btn-link");
-              __jsp_taghandler_5.setValue("Envío");
+              __jsp_taghandler_5.setValue("Comprador");
               __jsp_tag_starteval=__jsp_taghandler_5.doStartTag();
               if (OracleJspRuntime.checkStartBodyTagEval(__jsp_tag_starteval))
               {
@@ -145,7 +145,7 @@ public class _propietario extends oracle.jsp.runtime.HttpJsp {
               __jsp_taghandler_6.setParent(__jsp_taghandler_1);
               __jsp_taghandler_6.setProperty("boton");
               __jsp_taghandler_6.setStyleClass("btn btn-default btn-link");
-              __jsp_taghandler_6.setValue("Exposición");
+              __jsp_taghandler_6.setValue("Envío");
               __jsp_tag_starteval=__jsp_taghandler_6.doStartTag();
               if (OracleJspRuntime.checkStartBodyTagEval(__jsp_tag_starteval))
               {
@@ -165,7 +165,7 @@ public class _propietario extends oracle.jsp.runtime.HttpJsp {
               __jsp_taghandler_7.setParent(__jsp_taghandler_1);
               __jsp_taghandler_7.setProperty("boton");
               __jsp_taghandler_7.setStyleClass("btn btn-default btn-link");
-              __jsp_taghandler_7.setValue("Factura");
+              __jsp_taghandler_7.setValue("Exposición");
               __jsp_tag_starteval=__jsp_taghandler_7.doStartTag();
               if (OracleJspRuntime.checkStartBodyTagEval(__jsp_tag_starteval))
               {
@@ -185,7 +185,7 @@ public class _propietario extends oracle.jsp.runtime.HttpJsp {
               __jsp_taghandler_8.setParent(__jsp_taghandler_1);
               __jsp_taghandler_8.setProperty("boton");
               __jsp_taghandler_8.setStyleClass("btn btn-default btn-link");
-              __jsp_taghandler_8.setValue("Obra");
+              __jsp_taghandler_8.setValue("Factura");
               __jsp_tag_starteval=__jsp_taghandler_8.doStartTag();
               if (OracleJspRuntime.checkStartBodyTagEval(__jsp_tag_starteval))
               {
@@ -205,7 +205,7 @@ public class _propietario extends oracle.jsp.runtime.HttpJsp {
               __jsp_taghandler_9.setParent(__jsp_taghandler_1);
               __jsp_taghandler_9.setProperty("boton");
               __jsp_taghandler_9.setStyleClass("btn btn-default btn-link");
-              __jsp_taghandler_9.setValue("Orden");
+              __jsp_taghandler_9.setValue("Obra");
               __jsp_tag_starteval=__jsp_taghandler_9.doStartTag();
               if (OracleJspRuntime.checkStartBodyTagEval(__jsp_tag_starteval))
               {
@@ -225,7 +225,7 @@ public class _propietario extends oracle.jsp.runtime.HttpJsp {
               __jsp_taghandler_10.setParent(__jsp_taghandler_1);
               __jsp_taghandler_10.setProperty("boton");
               __jsp_taghandler_10.setStyleClass("btn btn-default btn-link");
-              __jsp_taghandler_10.setValue("Pago");
+              __jsp_taghandler_10.setValue("Orden");
               __jsp_tag_starteval=__jsp_taghandler_10.doStartTag();
               if (OracleJspRuntime.checkStartBodyTagEval(__jsp_tag_starteval))
               {
@@ -245,7 +245,7 @@ public class _propietario extends oracle.jsp.runtime.HttpJsp {
               __jsp_taghandler_11.setParent(__jsp_taghandler_1);
               __jsp_taghandler_11.setProperty("boton");
               __jsp_taghandler_11.setStyleClass("btn btn-default btn-link");
-              __jsp_taghandler_11.setValue("Propietario");
+              __jsp_taghandler_11.setValue("Pago");
               __jsp_tag_starteval=__jsp_taghandler_11.doStartTag();
               if (OracleJspRuntime.checkStartBodyTagEval(__jsp_tag_starteval))
               {
@@ -265,7 +265,7 @@ public class _propietario extends oracle.jsp.runtime.HttpJsp {
               __jsp_taghandler_12.setParent(__jsp_taghandler_1);
               __jsp_taghandler_12.setProperty("boton");
               __jsp_taghandler_12.setStyleClass("btn btn-default btn-link");
-              __jsp_taghandler_12.setValue("Registro Exposición");
+              __jsp_taghandler_12.setValue("Propietario");
               __jsp_tag_starteval=__jsp_taghandler_12.doStartTag();
               if (OracleJspRuntime.checkStartBodyTagEval(__jsp_tag_starteval))
               {
@@ -285,7 +285,7 @@ public class _propietario extends oracle.jsp.runtime.HttpJsp {
               __jsp_taghandler_13.setParent(__jsp_taghandler_1);
               __jsp_taghandler_13.setProperty("boton");
               __jsp_taghandler_13.setStyleClass("btn btn-default btn-link");
-              __jsp_taghandler_13.setValue("Registro Obra");
+              __jsp_taghandler_13.setValue("Registro Exposición");
               __jsp_tag_starteval=__jsp_taghandler_13.doStartTag();
               if (OracleJspRuntime.checkStartBodyTagEval(__jsp_tag_starteval))
               {
@@ -586,7 +586,7 @@ public class _propietario extends oracle.jsp.runtime.HttpJsp {
               org.apache.struts.taglib.bean.WriteTag __jsp_taghandler_29=(org.apache.struts.taglib.bean.WriteTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.bean.WriteTag.class,"org.apache.struts.taglib.bean.WriteTag name property");
               __jsp_taghandler_29.setParent(__jsp_taghandler_23);
               __jsp_taghandler_29.setName("tabla");
-              __jsp_taghandler_29.setProperty("corrreo");
+              __jsp_taghandler_29.setProperty("correo");
               __jsp_tag_starteval=__jsp_taghandler_29.doStartTag();
               if (OracleJspRuntime.checkStartTagEval(__jsp_tag_starteval))
               {
@@ -599,7 +599,7 @@ public class _propietario extends oracle.jsp.runtime.HttpJsp {
             }
             /*@lineinfo:generated-code*/
             out.write(__jsp_StaticText.text[34]);
-          /*@lineinfo:translated-code*//*@lineinfo:287^91*/          } while (__jsp_taghandler_23.doAfterBody()==javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN);
+          /*@lineinfo:translated-code*//*@lineinfo:287^90*/          } while (__jsp_taghandler_23.doAfterBody()==javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN);
           out=OracleJspRuntime.popBodyIfNeeded(pageContext,out);
         }
         if (__jsp_taghandler_23.doEndTag()==javax.servlet.jsp.tagext.Tag.SKIP_PAGE)
@@ -636,31 +636,31 @@ public class _propietario extends oracle.jsp.runtime.HttpJsp {
       text[2] = 
       "\n".toCharArray();
       text[3] = 
-      "\n<html>\n<head>\n  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=windows-1252\">\n  <meta charset=\"utf-8\" />\n  <link rel=\"apple-touch-icon\" sizes=\"76x76\" href=\"assets1/img/apple-icon.png\">\n  <link rel=\"icon\" type=\"image/png\" href=\"assets1/img/favicon.png\">\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\" />\n  <title>Galeria de Arte</title>\n  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />\n  <!--     Fonts and icons     -->\n  <link rel=\"stylesheet\" type=\"text/css\" href=\"https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons\" />\n  <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css\">\n  <!-- CSS Files -->\n  <link href=\"assets1/css/material-dashboard.css?v=2.1.1\" rel=\"stylesheet\" />\n  <!-- CSS Just for demo purpose, don't include it in your project -->\n  <link href=\"assets1/demo/demo.css\" rel=\"stylesheet\" />\n</head>\n<body>\n<div class=\"wrapper \">\n    <div class=\"sidebar\" data-color=\"purple\" data-background-color=\"white\" data-image=\"assets1/img/sidebar-1.jpg\">\n      <!--\n        Tip 1: You can change the color of the sidebar using: data-color=\"purple | azure | green | orange | danger\"\n\n        Tip 2: you can also add an image using data-image tag\n    -->\n      <div class=\"logo\">\n        <a href=\"http://www.creative-tim.com\" class=\"simple-text logo-normal\">\n          Galeria de arte\n        </a>\n      </div>\n      ".toCharArray();
+      "\n<html>\n<head>\n  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=windows-1252\">\n  <meta charset=\"utf-8\" />\n  <link rel=\"apple-touch-icon\" sizes=\"76x76\" href=\"assets1/img/apple-icon.png\">\n  <link rel=\"icon\" type=\"image/png\" href=\"assets1/img/favicon.png\">\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\" />\n  <title>Galeria de Arte</title>\n  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />\n  <!--     Fonts and icons     -->\n  <link rel=\"stylesheet\" type=\"text/css\" href=\"https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons\" />\n  <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css\">\n  <!-- CSS Files -->\n  <link href=\"assets1/css/material-dashboard.css?v=2.1.1\" rel=\"stylesheet\" />\n  <!-- CSS Just for demo purpose, don't include it in your project -->\n  <link href=\"assets1/demo/demo.css\" rel=\"stylesheet\" />\n</head>\n<body>\n<div class=\"wrapper \">\n    <div class=\"sidebar\" data-color=\"purple\" data-background-color=\"white\" data-image=\"assets1/img/sidebar-1.jpg\">\n      <!--\n        Tip 1: You can change the color of the sidebar using: data-color=\"purple | azure | green | orange | danger\"\n\n        Tip 2: you can also add an image using data-image tag\n    -->\n      <div class=\"logo\">\n        <a href=\"http://www.creative-tim.com\" class=\"simple-text logo-normal\">\n          Galeria de arte\n        </a>\n      </div>\n            ".toCharArray();
       text[4] = 
-      "\n        <div class=\"sidebar-wrapper\">\n          <ul class=\"nav\">\n            <li class=\"nav-item\">\n              <a class=\"nav-link\" href=\"./dashboard.jsp\">\n                <i class=\"material-icons\">palette</i>\n                ".toCharArray();
+      "\n        <div class=\"sidebar-wrapper\">\n          <ul class=\"nav\">  \n            <li class=\"nav-item \">\n              <a class=\"nav-link\" href=\"./dashboard.jsp\">\n                <i class=\"material-icons\">vertical_split</i>\n                <p>".toCharArray();
       text[5] = 
-      "\n              </a>\n            </li>\n            <li class=\"nav-item \">\n              <a class=\"nav-link\" href=\"./categoria.jsp\">\n                <i class=\"material-icons\">rate_review</i>\n                <p>".toCharArray();
+      "</p>\n              </a>\n            </li>\n            <li class=\"nav-item\">\n              <a class=\"nav-link\" href=\"./artista.jsp\">\n                <i class=\"material-icons\">palette</i>\n                ".toCharArray();
       text[6] = 
-      "</p>\n              </a>\n            </li>\n            <li class=\"nav-item \">\n              <a class=\"nav-link\" href=\"./comprador.jsp\">\n                <i class=\"material-icons\">supervisor_account</i>\n                <p>".toCharArray();
+      "\n              </a>\n            </li>\n            <li class=\"nav-item \">\n              <a class=\"nav-link\" href=\"./categoria.jsp\">\n                <i class=\"material-icons\">rate_review</i>\n                <p>".toCharArray();
       text[7] = 
-      "</p>\n              </a>\n            </li>\n            <li class=\"nav-item \">\n              <a class=\"nav-link\" href=\"./envio.jsp\">\n                <i class=\"material-icons\">local_airport</i>\n                <p>".toCharArray();
+      "</p>\n              </a>\n            </li>\n            <li class=\"nav-item \">\n              <a class=\"nav-link\" href=\"./comprador.jsp\">\n                <i class=\"material-icons\">supervisor_account</i>\n                <p>".toCharArray();
       text[8] = 
-      "</p>\n              </a>\n            </li>\n          <li class=\"nav-item  \">\n              <a class=\"nav-link\" href=\"./exposicion.jsp\">\n                <i class=\"material-icons\">layers</i>\n                <p>".toCharArray();
+      "</p>\n              </a>\n            </li>\n            <li class=\"nav-item \">\n              <a class=\"nav-link\" href=\"./envio.jsp\">\n                <i class=\"material-icons\">local_airport</i>\n                <p>".toCharArray();
       text[9] = 
-      "</p>\n              </a>\n            </li>\n            <li class=\"nav-item \">\n              <a class=\"nav-link\" href=\"./factura.jsp\">\n                <i class=\"material-icons\">receipt</i>\n                <p>".toCharArray();
+      "</p>\n              </a>\n            </li>\n          <li class=\"nav-item  \">\n              <a class=\"nav-link\" href=\"./exposicion.jsp\">\n                <i class=\"material-icons\">layers</i>\n                <p>".toCharArray();
       text[10] = 
-      "</p>\n              </a>\n            </li>\n            <li class=\"nav-item \">\n              <a class=\"nav-link\" href=\"./obra.jsp\">\n                <i class=\"material-icons\">photo_size_select_actual</i>\n                <p>".toCharArray();
+      "</p>\n              </a>\n            </li>\n            <li class=\"nav-item \">\n              <a class=\"nav-link\" href=\"./factura.jsp\">\n                <i class=\"material-icons\">receipt</i>\n                <p>".toCharArray();
       text[11] = 
-      "</p>\n              </a>\n            </li>\n            <li class=\"nav-item \">\n              <a class=\"nav-link\" href=\"./orden.jsp\">\n                <i class=\"material-icons\">image_search</i>\n                <p>".toCharArray();
+      "</p>\n              </a>\n            </li>\n            <li class=\"nav-item \">\n              <a class=\"nav-link\" href=\"./obra.jsp\">\n                <i class=\"material-icons\">photo_size_select_actual</i>\n                <p>".toCharArray();
       text[12] = 
-      "</p>\n              </a>\n            </li>\n            <li class=\"nav-item \">\n              <a class=\"nav-link\" href=\"./pago.jsp\">\n                <i class=\"material-icons\">monetization_on</i>\n                <p>".toCharArray();
+      "</p>\n              </a>\n            </li>\n            <li class=\"nav-item \">\n              <a class=\"nav-link\" href=\"./orden.jsp\">\n                <i class=\"material-icons\">image_search</i>\n                <p>".toCharArray();
       text[13] = 
-      "</p>\n              </a>\n            </li>\n            <li class=\"nav-item active\">\n              <a class=\"nav-link\" href=\"./propietario.jsp\">\n                <i class=\"material-icons\">person</i>\n                <p>".toCharArray();
+      "</p>\n              </a>\n            </li>\n            <li class=\"nav-item \">\n              <a class=\"nav-link\" href=\"./pago.jsp\">\n                <i class=\"material-icons\">monetization_on</i>\n                <p>".toCharArray();
       text[14] = 
-      "</p>\n              </a>\n            </li>\n            <li class=\"nav-item \">\n              <a class=\"nav-link\" href=\"./registroExposicion.jsp\">\n                <i class=\"material-icons\">view_carousel</i>\n                <p>".toCharArray();
+      "</p>\n              </a>\n            </li>\n            <li class=\"nav-item active\">\n              <a class=\"nav-link\" href=\"./propietario.jsp\">\n                <i class=\"material-icons\">person</i>\n                <p>".toCharArray();
       text[15] = 
-      "</p>\n              </a>\n            </li>\n            <li class=\"nav-item \">\n              <a class=\"nav-link\" href=\"./registroObra.jsp\">\n                <i class=\"material-icons\">vertical_split</i>\n                <p>".toCharArray();
+      "</p>\n              </a>\n            </li>\n            <li class=\"nav-item \">\n              <a class=\"nav-link\" href=\"./registroExposicion.jsp\">\n                <i class=\"material-icons\">view_carousel</i>\n                <p>".toCharArray();
       text[16] = 
       "</p>\n              </a>\n            </li>\n            <li class=\"nav-item \">\n              <a class=\"nav-link\" href=\"./salon.jsp\">\n                <i class=\"material-icons\">store</i>\n                <p>".toCharArray();
       text[17] = 

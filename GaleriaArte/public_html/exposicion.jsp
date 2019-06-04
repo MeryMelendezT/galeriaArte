@@ -27,11 +27,17 @@
           Galeria de arte
         </a>
       </div>
-      <html:form action="/navbar">
+            <html:form action="/navbar">
         <div class="sidebar-wrapper">
-          <ul class="nav">
-            <li class="nav-item">
+          <ul class="nav">  
+            <li class="nav-item ">
               <a class="nav-link" href="./dashboard.jsp">
+                <i class="material-icons">vertical_split</i>
+                <p><html:submit property="boton" styleClass="btn btn-default btn-link" value="Dashboard" /></p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./artista.jsp">
                 <i class="material-icons">palette</i>
                 <html:submit property="boton" styleClass="btn btn-default btn-link" value="Artista" />
               </a>
@@ -54,7 +60,7 @@
                 <p><html:submit property="boton" styleClass="btn btn-default btn-link" value="Envío" /></p>
               </a>
             </li>
-            <li class="nav-item active ">
+          <li class="nav-item active ">
               <a class="nav-link" href="./exposicion.jsp">
                 <i class="material-icons">layers</i>
                 <p><html:submit property="boton" styleClass="btn btn-default btn-link" value="Exposición" /></p>
@@ -94,12 +100,6 @@
               <a class="nav-link" href="./registroExposicion.jsp">
                 <i class="material-icons">view_carousel</i>
                 <p><html:submit property="boton" styleClass="btn btn-default btn-link" value="Registro Exposición" /></p>
-              </a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link" href="./registroObra.jsp">
-                <i class="material-icons">vertical_split</i>
-                <p><html:submit property="boton" styleClass="btn btn-default btn-link" value="Registro Obra" /></p>
               </a>
             </li>
             <li class="nav-item ">

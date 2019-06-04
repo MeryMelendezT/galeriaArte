@@ -31,9 +31,15 @@
       </div>
       <html:form action="/navbar">
         <div class="sidebar-wrapper">
-          <ul class="nav">
+          <ul class="nav">  
             <li class="nav-item">
               <a class="nav-link" href="./dashboard.jsp">
+                <i class="material-icons">vertical_split</i>
+                <p><html:submit property="boton" styleClass="btn btn-default btn-link" value="Dashboard" /></p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./artista.jsp">
                 <i class="material-icons">palette</i>
                 <html:submit property="boton" styleClass="btn btn-default btn-link" value="Artista" />
               </a>
@@ -56,7 +62,7 @@
                 <p><html:submit property="boton" styleClass="btn btn-default btn-link" value="Envío" /></p>
               </a>
             </li>
-            <li class="nav-item  ">
+          <li class="nav-item  ">
               <a class="nav-link" href="./exposicion.jsp">
                 <i class="material-icons">layers</i>
                 <p><html:submit property="boton" styleClass="btn btn-default btn-link" value="Exposición" /></p>
@@ -99,18 +105,12 @@
               </a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link" href="./registroObra.jsp">
-                <i class="material-icons">vertical_split</i>
-                <p><html:submit property="boton" styleClass="btn btn-default btn-link" value="Registro Obra" /></p>
-              </a>
-            </li>
-            <li class="nav-item ">
               <a class="nav-link" href="./salon.jsp">
                 <i class="material-icons">store</i>
                 <p><html:submit property="boton" value="Salón" styleClass="btn btn-default btn-link" /></p>
               </a>
             </li>
-          </ul>
+            </ul>
         </div>
       </div>
     </html:form>

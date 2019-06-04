@@ -45,7 +45,7 @@ public class altasObraAction extends Action
     try
     {
       cn = conn.conexion;
-      String cadena = "insert into my_obra values("+id+","+artista_id+","+propietario_id+","+categoria_id+","+numeroRegistro+",'"+titulo+"','"+estilo+"','"+precio+"','"+imagen+"')";
+      String cadena = "insert into my_obra values("+id+","+artista_id+","+propietario_id+","+categoria_id+",'"+numeroRegistro+"','"+titulo+"','"+estilo+"','"+precio+"','"+imagen+"')";
       System.out.println(cadena);
       int a = conn.InsertaDatos(cadena);  
       return mapping.findForward("dashboard");

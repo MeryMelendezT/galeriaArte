@@ -1,5 +1,4 @@
 <?xml version = '1.0' encoding = 'windows-1252'?>
-
 <!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.1//EN" "http://jakarta.apache.org/struts/dtds/struts-config_1_1.dtd">
 <struts-config>
   <form-beans>
@@ -17,6 +16,7 @@
     <form-bean name="listadoForm" type="mypackage1.listadoForm"/>
     <form-bean name="altasFacturaForm" type="mypackage1.altasFacturaForm"/>
     <form-bean name="altasOrdenForm" type="mypackage1.altasOrdenForm"/>
+    <form-bean name="modificacionesArtistaForm" type="mypackage1.modificacionesArtistaForm"/>
   </form-beans>
   <global-forwards>
     <forward name="dashboard" path="/dashboard.jsp"/>
@@ -34,6 +34,7 @@
     <forward name="propietario" path="/propietario.jsp"/>
     <forward name="registroExposicion" path="/registroExposicion.jsp"/>
     <forward name="registroObra" path="/registroObra.jsp"/>
+    <forward name="artista" path="/artista.jsp"/>
   </global-forwards>
   <action-mappings>
     <action path="/inicio" type="mypackage1.inicioAction" name="inicioForm" input="/inicio.jsp" scope="request"/>
@@ -50,6 +51,7 @@
     <action path="/listado" type="mypackage1.listadoAction" name="listadoForm" scope="request"/>
     <action path="/altasFactura" type="mypackage1.altasFacturaAction" name="altasFacturaForm" input="/factura.jsp" scope="request"/>
     <action path="/altasOrden" type="mypackage1.altasOrdenAction" name="altasOrdenForm" input="/orden.jsp" scope="request"/>
+    <action path="/modificacionesArtista" type="mypackage1.modificacionesArtistaAction" name="modificacionesArtistaForm" scope="request"/>
   </action-mappings>
   <message-resources parameter="mypackage1.ApplicationResources"/>
 </struts-config>

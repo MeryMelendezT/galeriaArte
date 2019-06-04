@@ -1,3 +1,5 @@
+<%@ taglib uri="/WEB-INF/struts-bean.tld" prefix="bean" %>
+<%@ taglib uri="/WEB-INF/struts-logic.tld" prefix="logic" %>
 <%@ taglib uri="/WEB-INF/struts-html.tld" prefix="html" %>
 <%@ page contentType="text/html;charset=windows-1252"%>
 <html>
@@ -30,11 +32,17 @@
           Galeria de arte
         </a>
       </div>
-      <html:form action="/navbar">
+            <html:form action="/navbar">
         <div class="sidebar-wrapper">
-          <ul class="nav">
-            <li class="nav-item">
+          <ul class="nav">  
+            <li class="nav-item ">
               <a class="nav-link" href="./dashboard.jsp">
+                <i class="material-icons">vertical_split</i>
+                <p><html:submit property="boton" styleClass="btn btn-default btn-link" value="Dashboard" /></p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./artista.jsp">
                 <i class="material-icons">palette</i>
                 <html:submit property="boton" styleClass="btn btn-default btn-link" value="Artista" />
               </a>
@@ -97,12 +105,6 @@
               <a class="nav-link" href="./registroExposicion.jsp">
                 <i class="material-icons">view_carousel</i>
                 <p><html:submit property="boton" styleClass="btn btn-default btn-link" value="Registro Exposición" /></p>
-              </a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link" href="./registroObra.jsp">
-                <i class="material-icons">vertical_split</i>
-                <p><html:submit property="boton" styleClass="btn btn-default btn-link" value="Registro Obra" /></p>
               </a>
             </li>
             <li class="nav-item ">
@@ -195,7 +197,7 @@
                 <div class="card-body">
                   <html:form action="/altasObra">
                     <div class="row">
-                      <div class="col-md-12">
+                      <div class="col-md-6">
                         <div class="form-group">
                           <label class="bmd-label-floating">ID</label>
                           <!--<input type="text" class="form-control">-->
@@ -204,9 +206,9 @@
                       </div>
                       <div class="col-md-6">
                         <div class="form-group">
-                          <label class="bmd-label-floating">Categoria</label>
+                          <label class="bmd-label-floating">Artista</label>
                           <!--<input type="text" class="form-control">-->
-                          <html:text property="categoria_id" styleClass="form-control" />
+                          <html:text property="artista_id" styleClass="form-control" />
                         </div>
                       </div>
                       <div class="col-md-6">
@@ -216,8 +218,22 @@
                           <html:text property="propietario_id" styleClass="form-control" />
                         </div>
                       </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label class="bmd-label-floating">Categoria</label>
+                          <!--<input type="email" class="form-control">-->
+                          <html:text property="categoria_id" styleClass="form-control" />
+                        </div>
+                      </div>
                     </div>
                     <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label class="bmd-label-floating">Numero de Registro</label>
+                          <!--<input type="text" class="form-control">-->
+                          <html:text property="numeroRegistro" styleClass="form-control" />
+                        </div>
+                      </div>
                       <div class="col-md-6">
                         <div class="form-group">
                           <label class="bmd-label-floating">Titulo</label>
@@ -264,24 +280,53 @@
     </tbody>
   </table>
 </div>
-                    <div class="tab-pane" id="bajas">
-                      <table class="table">
-                        <tbody>
-                          <tr>
-                            <td>Flooded: One year later, assessing what was lost and what was found when a ravaging rain swept through metro Detroit
-                            </td>
-                            <td class="td-actions text-right">
-                              <button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-link btn-sm">
-                                <i class="material-icons">edit</i>
-                              </button>
-                              <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-link btn-sm">
-                                <i class="material-icons">close</i>
-                              </button>
-                            </td>
-                          </tr>
-                          </tbody>
-                      </table>
-                    </div>
+                      <div class="tab-pane" id="bajas">
+                        <div class="col-md-12">
+                          <div class="card card-plain">
+                            <div class="card-body">
+                              <div class="table-responsive">
+                                <table class="table table-hover">
+                                  <thead class="">
+                                    <th>ID</th>
+                                    <th>Artista</th>
+                                    <th>Propietario</th>
+                                    <th>Categoria</th>
+                                    <th>Numero de Registro</th>
+                                    <th>Titulo</th>
+                                    <th>Estilo</th>
+                                    <th>Precio</th>
+                                    <th>Imagen</th>
+                                    <th></th>
+                                  </thead>
+                                  <tbody>
+                                    <logic:iterate id="tabla" indexId="index" name="listados" property="tabla">
+                                      <tr>
+                                        <td><bean:write name="tabla" property="id" /></td>
+                                        <td><bean:write name="tabla" property="artista_id" /></td>
+                                        <td><bean:write name="tabla" property="propietario_id" /></td>
+                                        <td><bean:write name="tabla" property="categoria_id" /></td>
+                                        <td><bean:write name="tabla" property="numeroRegistro" /></td>
+                                        <td><bean:write name="tabla" property="titulo" /></td>
+                                        <td><bean:write name="tabla" property="estilo" /></td>
+                                        <td><bean:write name="tabla" property="precio" /></td>
+                                        <td><bean:write name="tabla" property="imagen" /></td>
+                                        <td class="td-actions text-right">
+                                            <button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-link btn-sm">
+                                              <i class="material-icons">edit</i>
+                                            </button>
+                                            <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-link btn-sm">
+                                              <i class="material-icons">close</i>
+                                            </button>
+                                        </td>
+                                      </tr>
+                                    </logic:iterate>
+                                  </tbody>
+                                </table>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>  
 
   <div class="tab-pane " id="modificaciones">
     <table class="table">

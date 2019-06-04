@@ -32,7 +32,9 @@ public class navbarAction extends Action
     String boton = NavbarForm.getBoton();
     System.out.println("navbar");
     System.out.println(boton);
-
+    if(boton.equals("Dashboard")){
+      return mapping.findForward("dashboard");
+    }
     if(boton.equals("Artista")){
       Connection cn = null;
       ConnectDB conn = new ConnectDB();
@@ -57,7 +59,7 @@ public class navbarAction extends Action
         listadoForm ListadoForm = new listadoForm();
         ListadoForm.setTabla(items);
         request.getSession().setAttribute("listados",ListadoForm);
-        return mapping.findForward("dashboard");
+        return mapping.findForward("artista");
       }catch(Exception e){
         e.printStackTrace();
         return (mapping.findForward("nook"));
@@ -205,7 +207,7 @@ public class navbarAction extends Action
           item.setFecha(rsConsulta.getString("fecha"));
           item.setApellidoFactura(rsConsulta.getString("apellidoFactura"));
           item.setCantidad(rsConsulta.getString("cantidad"));
-          item.setDescripcion(rsConsulta.getString("Desscripcion"));
+          item.setDescripcion(rsConsulta.getString("descripcion"));
           item.setImporte(rsConsulta.getString("importe"));
           item.setCodigoControl(rsConsulta.getString("codigoControl"));
           item.setLimiteEmision(rsConsulta.getString("limiteEmision"));

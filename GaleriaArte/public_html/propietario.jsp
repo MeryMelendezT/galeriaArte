@@ -32,11 +32,17 @@
           Galeria de arte
         </a>
       </div>
-      <html:form action="/navbar">
+            <html:form action="/navbar">
         <div class="sidebar-wrapper">
-          <ul class="nav">
-            <li class="nav-item">
+          <ul class="nav">  
+            <li class="nav-item ">
               <a class="nav-link" href="./dashboard.jsp">
+                <i class="material-icons">vertical_split</i>
+                <p><html:submit property="boton" styleClass="btn btn-default btn-link" value="Dashboard" /></p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./artista.jsp">
                 <i class="material-icons">palette</i>
                 <html:submit property="boton" styleClass="btn btn-default btn-link" value="Artista" />
               </a>
@@ -99,12 +105,6 @@
               <a class="nav-link" href="./registroExposicion.jsp">
                 <i class="material-icons">view_carousel</i>
                 <p><html:submit property="boton" styleClass="btn btn-default btn-link" value="Registro Exposición" /></p>
-              </a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link" href="./registroObra.jsp">
-                <i class="material-icons">vertical_split</i>
-                <p><html:submit property="boton" styleClass="btn btn-default btn-link" value="Registro Obra" /></p>
               </a>
             </li>
             <li class="nav-item ">
@@ -284,7 +284,7 @@
                                         <td><bean:write name="tabla" property="nombre" /></td>
                                         <td><bean:write name="tabla" property="apellido" /></td>
                                         <td><bean:write name="tabla" property="direccion" /></td>
-                                        <td><bean:write name="tabla" property="corrreo" /></td>
+                                        <td><bean:write name="tabla" property="correo" /></td>
                                         <td class="td-actions text-right">
                                             <button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-link btn-sm">
                                               <i class="material-icons">edit</i>

@@ -1,4 +1,4 @@
-  /*@lineinfo:filename=/categoria.jsp*/
+  /*@lineinfo:filename=/listadoArtista.jsp*/
   /*@lineinfo:generated-code*/
 
 import oracle.jsp.runtime.*;
@@ -7,7 +7,7 @@ import javax.servlet.http.*;
 import javax.servlet.jsp.*;
 
 
-public class _categoria extends oracle.jsp.runtime.HttpJsp {
+public class _listadoArtista extends oracle.jsp.runtime.HttpJsp {
 
   public final String _globalsClassName = null;
 
@@ -38,7 +38,7 @@ public class _categoria extends oracle.jsp.runtime.HttpJsp {
     int __jsp_tag_starteval;
     ServletContext application = pageContext.getServletContext();
     JspWriter out = pageContext.getOut();
-    _categoria page = this;
+    _listadoArtista page = this;
     ServletConfig config = pageContext.getServletConfig();
 
     try {
@@ -50,7 +50,7 @@ public class _categoria extends oracle.jsp.runtime.HttpJsp {
       out.write(__jsp_StaticText.text[1]);
       out.write(__jsp_StaticText.text[2]);
       out.write(__jsp_StaticText.text[3]);
-      /*@lineinfo:translated-code*//*@lineinfo:32^7*/      {
+      /*@lineinfo:translated-code*//*@lineinfo:30^7*/      {
         org.apache.struts.taglib.html.FormTag __jsp_taghandler_1=(org.apache.struts.taglib.html.FormTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.html.FormTag.class,"org.apache.struts.taglib.html.FormTag action");
         __jsp_taghandler_1.setParent(null);
         __jsp_taghandler_1.setAction("/navbar");
@@ -60,12 +60,12 @@ public class _categoria extends oracle.jsp.runtime.HttpJsp {
           do {
             /*@lineinfo:generated-code*/
             out.write(__jsp_StaticText.text[4]);
-            /*@lineinfo:translated-code*//*@lineinfo:38^20*/            {
+            /*@lineinfo:translated-code*//*@lineinfo:36^17*/            {
               org.apache.struts.taglib.html.SubmitTag __jsp_taghandler_2=(org.apache.struts.taglib.html.SubmitTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.html.SubmitTag.class,"org.apache.struts.taglib.html.SubmitTag property styleClass value");
               __jsp_taghandler_2.setParent(__jsp_taghandler_1);
               __jsp_taghandler_2.setProperty("boton");
               __jsp_taghandler_2.setStyleClass("btn btn-default btn-link");
-              __jsp_taghandler_2.setValue("Dashboard");
+              __jsp_taghandler_2.setValue("Artista");
               __jsp_tag_starteval=__jsp_taghandler_2.doStartTag();
               if (OracleJspRuntime.checkStartBodyTagEval(__jsp_tag_starteval))
               {
@@ -80,12 +80,12 @@ public class _categoria extends oracle.jsp.runtime.HttpJsp {
             }
             /*@lineinfo:generated-code*/
             out.write(__jsp_StaticText.text[5]);
-            /*@lineinfo:translated-code*//*@lineinfo:44^17*/            {
+            /*@lineinfo:translated-code*//*@lineinfo:42^20*/            {
               org.apache.struts.taglib.html.SubmitTag __jsp_taghandler_3=(org.apache.struts.taglib.html.SubmitTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.html.SubmitTag.class,"org.apache.struts.taglib.html.SubmitTag property styleClass value");
               __jsp_taghandler_3.setParent(__jsp_taghandler_1);
               __jsp_taghandler_3.setProperty("boton");
               __jsp_taghandler_3.setStyleClass("btn btn-default btn-link");
-              __jsp_taghandler_3.setValue("Artista");
+              __jsp_taghandler_3.setValue("Categoría");
               __jsp_tag_starteval=__jsp_taghandler_3.doStartTag();
               if (OracleJspRuntime.checkStartBodyTagEval(__jsp_tag_starteval))
               {
@@ -100,12 +100,12 @@ public class _categoria extends oracle.jsp.runtime.HttpJsp {
             }
             /*@lineinfo:generated-code*/
             out.write(__jsp_StaticText.text[6]);
-            /*@lineinfo:translated-code*//*@lineinfo:50^20*/            {
+            /*@lineinfo:translated-code*//*@lineinfo:48^20*/            {
               org.apache.struts.taglib.html.SubmitTag __jsp_taghandler_4=(org.apache.struts.taglib.html.SubmitTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.html.SubmitTag.class,"org.apache.struts.taglib.html.SubmitTag property styleClass value");
               __jsp_taghandler_4.setParent(__jsp_taghandler_1);
               __jsp_taghandler_4.setProperty("boton");
               __jsp_taghandler_4.setStyleClass("btn btn-default btn-link");
-              __jsp_taghandler_4.setValue("Categoría");
+              __jsp_taghandler_4.setValue("Comprador");
               __jsp_tag_starteval=__jsp_taghandler_4.doStartTag();
               if (OracleJspRuntime.checkStartBodyTagEval(__jsp_tag_starteval))
               {
@@ -120,12 +120,12 @@ public class _categoria extends oracle.jsp.runtime.HttpJsp {
             }
             /*@lineinfo:generated-code*/
             out.write(__jsp_StaticText.text[7]);
-            /*@lineinfo:translated-code*//*@lineinfo:56^20*/            {
+            /*@lineinfo:translated-code*//*@lineinfo:54^20*/            {
               org.apache.struts.taglib.html.SubmitTag __jsp_taghandler_5=(org.apache.struts.taglib.html.SubmitTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.html.SubmitTag.class,"org.apache.struts.taglib.html.SubmitTag property styleClass value");
               __jsp_taghandler_5.setParent(__jsp_taghandler_1);
               __jsp_taghandler_5.setProperty("boton");
               __jsp_taghandler_5.setStyleClass("btn btn-default btn-link");
-              __jsp_taghandler_5.setValue("Comprador");
+              __jsp_taghandler_5.setValue("Envío");
               __jsp_tag_starteval=__jsp_taghandler_5.doStartTag();
               if (OracleJspRuntime.checkStartBodyTagEval(__jsp_tag_starteval))
               {
@@ -140,12 +140,12 @@ public class _categoria extends oracle.jsp.runtime.HttpJsp {
             }
             /*@lineinfo:generated-code*/
             out.write(__jsp_StaticText.text[8]);
-            /*@lineinfo:translated-code*//*@lineinfo:62^20*/            {
+            /*@lineinfo:translated-code*//*@lineinfo:60^20*/            {
               org.apache.struts.taglib.html.SubmitTag __jsp_taghandler_6=(org.apache.struts.taglib.html.SubmitTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.html.SubmitTag.class,"org.apache.struts.taglib.html.SubmitTag property styleClass value");
               __jsp_taghandler_6.setParent(__jsp_taghandler_1);
               __jsp_taghandler_6.setProperty("boton");
               __jsp_taghandler_6.setStyleClass("btn btn-default btn-link");
-              __jsp_taghandler_6.setValue("Envío");
+              __jsp_taghandler_6.setValue("Exposición");
               __jsp_tag_starteval=__jsp_taghandler_6.doStartTag();
               if (OracleJspRuntime.checkStartBodyTagEval(__jsp_tag_starteval))
               {
@@ -160,12 +160,12 @@ public class _categoria extends oracle.jsp.runtime.HttpJsp {
             }
             /*@lineinfo:generated-code*/
             out.write(__jsp_StaticText.text[9]);
-            /*@lineinfo:translated-code*//*@lineinfo:68^20*/            {
+            /*@lineinfo:translated-code*//*@lineinfo:66^20*/            {
               org.apache.struts.taglib.html.SubmitTag __jsp_taghandler_7=(org.apache.struts.taglib.html.SubmitTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.html.SubmitTag.class,"org.apache.struts.taglib.html.SubmitTag property styleClass value");
               __jsp_taghandler_7.setParent(__jsp_taghandler_1);
               __jsp_taghandler_7.setProperty("boton");
               __jsp_taghandler_7.setStyleClass("btn btn-default btn-link");
-              __jsp_taghandler_7.setValue("Exposición");
+              __jsp_taghandler_7.setValue("Factura");
               __jsp_tag_starteval=__jsp_taghandler_7.doStartTag();
               if (OracleJspRuntime.checkStartBodyTagEval(__jsp_tag_starteval))
               {
@@ -180,12 +180,12 @@ public class _categoria extends oracle.jsp.runtime.HttpJsp {
             }
             /*@lineinfo:generated-code*/
             out.write(__jsp_StaticText.text[10]);
-            /*@lineinfo:translated-code*//*@lineinfo:74^20*/            {
+            /*@lineinfo:translated-code*//*@lineinfo:72^20*/            {
               org.apache.struts.taglib.html.SubmitTag __jsp_taghandler_8=(org.apache.struts.taglib.html.SubmitTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.html.SubmitTag.class,"org.apache.struts.taglib.html.SubmitTag property styleClass value");
               __jsp_taghandler_8.setParent(__jsp_taghandler_1);
               __jsp_taghandler_8.setProperty("boton");
               __jsp_taghandler_8.setStyleClass("btn btn-default btn-link");
-              __jsp_taghandler_8.setValue("Factura");
+              __jsp_taghandler_8.setValue("Obra");
               __jsp_tag_starteval=__jsp_taghandler_8.doStartTag();
               if (OracleJspRuntime.checkStartBodyTagEval(__jsp_tag_starteval))
               {
@@ -200,12 +200,12 @@ public class _categoria extends oracle.jsp.runtime.HttpJsp {
             }
             /*@lineinfo:generated-code*/
             out.write(__jsp_StaticText.text[11]);
-            /*@lineinfo:translated-code*//*@lineinfo:80^20*/            {
+            /*@lineinfo:translated-code*//*@lineinfo:78^20*/            {
               org.apache.struts.taglib.html.SubmitTag __jsp_taghandler_9=(org.apache.struts.taglib.html.SubmitTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.html.SubmitTag.class,"org.apache.struts.taglib.html.SubmitTag property styleClass value");
               __jsp_taghandler_9.setParent(__jsp_taghandler_1);
               __jsp_taghandler_9.setProperty("boton");
               __jsp_taghandler_9.setStyleClass("btn btn-default btn-link");
-              __jsp_taghandler_9.setValue("Obra");
+              __jsp_taghandler_9.setValue("Orden");
               __jsp_tag_starteval=__jsp_taghandler_9.doStartTag();
               if (OracleJspRuntime.checkStartBodyTagEval(__jsp_tag_starteval))
               {
@@ -220,12 +220,12 @@ public class _categoria extends oracle.jsp.runtime.HttpJsp {
             }
             /*@lineinfo:generated-code*/
             out.write(__jsp_StaticText.text[12]);
-            /*@lineinfo:translated-code*//*@lineinfo:86^20*/            {
+            /*@lineinfo:translated-code*//*@lineinfo:84^20*/            {
               org.apache.struts.taglib.html.SubmitTag __jsp_taghandler_10=(org.apache.struts.taglib.html.SubmitTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.html.SubmitTag.class,"org.apache.struts.taglib.html.SubmitTag property styleClass value");
               __jsp_taghandler_10.setParent(__jsp_taghandler_1);
               __jsp_taghandler_10.setProperty("boton");
               __jsp_taghandler_10.setStyleClass("btn btn-default btn-link");
-              __jsp_taghandler_10.setValue("Orden");
+              __jsp_taghandler_10.setValue("Pago");
               __jsp_tag_starteval=__jsp_taghandler_10.doStartTag();
               if (OracleJspRuntime.checkStartBodyTagEval(__jsp_tag_starteval))
               {
@@ -240,12 +240,12 @@ public class _categoria extends oracle.jsp.runtime.HttpJsp {
             }
             /*@lineinfo:generated-code*/
             out.write(__jsp_StaticText.text[13]);
-            /*@lineinfo:translated-code*//*@lineinfo:92^20*/            {
+            /*@lineinfo:translated-code*//*@lineinfo:90^20*/            {
               org.apache.struts.taglib.html.SubmitTag __jsp_taghandler_11=(org.apache.struts.taglib.html.SubmitTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.html.SubmitTag.class,"org.apache.struts.taglib.html.SubmitTag property styleClass value");
               __jsp_taghandler_11.setParent(__jsp_taghandler_1);
               __jsp_taghandler_11.setProperty("boton");
               __jsp_taghandler_11.setStyleClass("btn btn-default btn-link");
-              __jsp_taghandler_11.setValue("Pago");
+              __jsp_taghandler_11.setValue("Propietario");
               __jsp_tag_starteval=__jsp_taghandler_11.doStartTag();
               if (OracleJspRuntime.checkStartBodyTagEval(__jsp_tag_starteval))
               {
@@ -260,12 +260,12 @@ public class _categoria extends oracle.jsp.runtime.HttpJsp {
             }
             /*@lineinfo:generated-code*/
             out.write(__jsp_StaticText.text[14]);
-            /*@lineinfo:translated-code*//*@lineinfo:98^20*/            {
+            /*@lineinfo:translated-code*//*@lineinfo:96^20*/            {
               org.apache.struts.taglib.html.SubmitTag __jsp_taghandler_12=(org.apache.struts.taglib.html.SubmitTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.html.SubmitTag.class,"org.apache.struts.taglib.html.SubmitTag property styleClass value");
               __jsp_taghandler_12.setParent(__jsp_taghandler_1);
               __jsp_taghandler_12.setProperty("boton");
               __jsp_taghandler_12.setStyleClass("btn btn-default btn-link");
-              __jsp_taghandler_12.setValue("Propietario");
+              __jsp_taghandler_12.setValue("Registro Exposición");
               __jsp_tag_starteval=__jsp_taghandler_12.doStartTag();
               if (OracleJspRuntime.checkStartBodyTagEval(__jsp_tag_starteval))
               {
@@ -280,12 +280,12 @@ public class _categoria extends oracle.jsp.runtime.HttpJsp {
             }
             /*@lineinfo:generated-code*/
             out.write(__jsp_StaticText.text[15]);
-            /*@lineinfo:translated-code*//*@lineinfo:104^20*/            {
+            /*@lineinfo:translated-code*//*@lineinfo:102^20*/            {
               org.apache.struts.taglib.html.SubmitTag __jsp_taghandler_13=(org.apache.struts.taglib.html.SubmitTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.html.SubmitTag.class,"org.apache.struts.taglib.html.SubmitTag property styleClass value");
               __jsp_taghandler_13.setParent(__jsp_taghandler_1);
               __jsp_taghandler_13.setProperty("boton");
               __jsp_taghandler_13.setStyleClass("btn btn-default btn-link");
-              __jsp_taghandler_13.setValue("Registro Exposición");
+              __jsp_taghandler_13.setValue("Registro Obra");
               __jsp_tag_starteval=__jsp_taghandler_13.doStartTag();
               if (OracleJspRuntime.checkStartBodyTagEval(__jsp_tag_starteval))
               {
@@ -300,7 +300,7 @@ public class _categoria extends oracle.jsp.runtime.HttpJsp {
             }
             /*@lineinfo:generated-code*/
             out.write(__jsp_StaticText.text[16]);
-            /*@lineinfo:translated-code*//*@lineinfo:110^20*/            {
+            /*@lineinfo:translated-code*//*@lineinfo:108^20*/            {
               org.apache.struts.taglib.html.SubmitTag __jsp_taghandler_14=(org.apache.struts.taglib.html.SubmitTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.html.SubmitTag.class,"org.apache.struts.taglib.html.SubmitTag property styleClass value");
               __jsp_taghandler_14.setParent(__jsp_taghandler_1);
               __jsp_taghandler_14.setProperty("boton");
@@ -320,7 +320,7 @@ public class _categoria extends oracle.jsp.runtime.HttpJsp {
             }
             /*@lineinfo:generated-code*/
             out.write(__jsp_StaticText.text[17]);
-          /*@lineinfo:translated-code*//*@lineinfo:110^104*/          } while (__jsp_taghandler_1.doAfterBody()==javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN);
+          /*@lineinfo:translated-code*//*@lineinfo:108^104*/          } while (__jsp_taghandler_1.doAfterBody()==javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN);
         }
         if (__jsp_taghandler_1.doEndTag()==javax.servlet.jsp.tagext.Tag.SKIP_PAGE)
           return;
@@ -328,28 +328,34 @@ public class _categoria extends oracle.jsp.runtime.HttpJsp {
       }
       /*@lineinfo:generated-code*/
       out.write(__jsp_StaticText.text[18]);
-      /*@lineinfo:translated-code*//*@lineinfo:194^45*/      {
-        org.apache.struts.taglib.html.FormTag __jsp_taghandler_15=(org.apache.struts.taglib.html.FormTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.html.FormTag.class,"org.apache.struts.taglib.html.FormTag action");
+      /*@lineinfo:translated-code*//*@lineinfo:198^37*/      {
+        org.apache.struts.taglib.logic.IterateTag __jsp_taghandler_15=(org.apache.struts.taglib.logic.IterateTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.logic.IterateTag.class,"org.apache.struts.taglib.logic.IterateTag id indexId name property");
         __jsp_taghandler_15.setParent(null);
-        __jsp_taghandler_15.setAction("/altasCategoria");
+        __jsp_taghandler_15.setId("tabla");
+        __jsp_taghandler_15.setIndexId("index");
+        __jsp_taghandler_15.setName("listados");
+        __jsp_taghandler_15.setProperty("tabla");
+        java.lang.Object tabla = null;
+        java.lang.Integer index = null;
         __jsp_tag_starteval=__jsp_taghandler_15.doStartTag();
-        if (OracleJspRuntime.checkStartTagEval(__jsp_tag_starteval))
+        if (OracleJspRuntime.checkStartBodyTagEval(__jsp_tag_starteval))
         {
+          out=OracleJspRuntime.pushBodyIfNeeded(pageContext,__jsp_taghandler_15,__jsp_tag_starteval,out);
           do {
+            tabla = (java.lang.Object) pageContext.findAttribute("tabla");
+            index = (java.lang.Integer) pageContext.findAttribute("index");
             /*@lineinfo:generated-code*/
             out.write(__jsp_StaticText.text[19]);
-            /*@lineinfo:translated-code*//*@lineinfo:199^53*/            {
-              org.apache.struts.taglib.html.TextTag __jsp_taghandler_16=(org.apache.struts.taglib.html.TextTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.html.TextTag.class,"org.apache.struts.taglib.html.TextTag property styleClass");
+            /*@lineinfo:translated-code*//*@lineinfo:200^45*/            {
+              org.apache.struts.taglib.bean.WriteTag __jsp_taghandler_16=(org.apache.struts.taglib.bean.WriteTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.bean.WriteTag.class,"org.apache.struts.taglib.bean.WriteTag name property");
               __jsp_taghandler_16.setParent(__jsp_taghandler_15);
+              __jsp_taghandler_16.setName("tabla");
               __jsp_taghandler_16.setProperty("id");
-              __jsp_taghandler_16.setStyleClass("form-control");
               __jsp_tag_starteval=__jsp_taghandler_16.doStartTag();
-              if (OracleJspRuntime.checkStartBodyTagEval(__jsp_tag_starteval))
+              if (OracleJspRuntime.checkStartTagEval(__jsp_tag_starteval))
               {
-                out=OracleJspRuntime.pushBodyIfNeeded(pageContext,__jsp_taghandler_16,__jsp_tag_starteval,out);
                 do {
                 } while (__jsp_taghandler_16.doAfterBody()==javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN);
-                out=OracleJspRuntime.popBodyIfNeeded(pageContext,out);
               }
               if (__jsp_taghandler_16.doEndTag()==javax.servlet.jsp.tagext.Tag.SKIP_PAGE)
                 return;
@@ -357,18 +363,16 @@ public class _categoria extends oracle.jsp.runtime.HttpJsp {
             }
             /*@lineinfo:generated-code*/
             out.write(__jsp_StaticText.text[20]);
-            /*@lineinfo:translated-code*//*@lineinfo:205^53*/            {
-              org.apache.struts.taglib.html.TextTag __jsp_taghandler_17=(org.apache.struts.taglib.html.TextTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.html.TextTag.class,"org.apache.struts.taglib.html.TextTag property styleClass");
+            /*@lineinfo:translated-code*//*@lineinfo:201^45*/            {
+              org.apache.struts.taglib.bean.WriteTag __jsp_taghandler_17=(org.apache.struts.taglib.bean.WriteTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.bean.WriteTag.class,"org.apache.struts.taglib.bean.WriteTag name property");
               __jsp_taghandler_17.setParent(__jsp_taghandler_15);
-              __jsp_taghandler_17.setProperty("nombre");
-              __jsp_taghandler_17.setStyleClass("form-control");
+              __jsp_taghandler_17.setName("tabla");
+              __jsp_taghandler_17.setProperty("carnet");
               __jsp_tag_starteval=__jsp_taghandler_17.doStartTag();
-              if (OracleJspRuntime.checkStartBodyTagEval(__jsp_tag_starteval))
+              if (OracleJspRuntime.checkStartTagEval(__jsp_tag_starteval))
               {
-                out=OracleJspRuntime.pushBodyIfNeeded(pageContext,__jsp_taghandler_17,__jsp_tag_starteval,out);
                 do {
                 } while (__jsp_taghandler_17.doAfterBody()==javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN);
-                out=OracleJspRuntime.popBodyIfNeeded(pageContext,out);
               }
               if (__jsp_taghandler_17.doEndTag()==javax.servlet.jsp.tagext.Tag.SKIP_PAGE)
                 return;
@@ -376,18 +380,16 @@ public class _categoria extends oracle.jsp.runtime.HttpJsp {
             }
             /*@lineinfo:generated-code*/
             out.write(__jsp_StaticText.text[21]);
-            /*@lineinfo:translated-code*//*@lineinfo:209^51*/            {
-              org.apache.struts.taglib.html.SubmitTag __jsp_taghandler_18=(org.apache.struts.taglib.html.SubmitTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.html.SubmitTag.class,"org.apache.struts.taglib.html.SubmitTag styleClass value");
+            /*@lineinfo:translated-code*//*@lineinfo:202^45*/            {
+              org.apache.struts.taglib.bean.WriteTag __jsp_taghandler_18=(org.apache.struts.taglib.bean.WriteTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.bean.WriteTag.class,"org.apache.struts.taglib.bean.WriteTag name property");
               __jsp_taghandler_18.setParent(__jsp_taghandler_15);
-              __jsp_taghandler_18.setStyleClass("btn btn-info pull-right");
-              __jsp_taghandler_18.setValue("Registrar");
+              __jsp_taghandler_18.setName("tabla");
+              __jsp_taghandler_18.setProperty("nombre");
               __jsp_tag_starteval=__jsp_taghandler_18.doStartTag();
-              if (OracleJspRuntime.checkStartBodyTagEval(__jsp_tag_starteval))
+              if (OracleJspRuntime.checkStartTagEval(__jsp_tag_starteval))
               {
-                out=OracleJspRuntime.pushBodyIfNeeded(pageContext,__jsp_taghandler_18,__jsp_tag_starteval,out);
                 do {
                 } while (__jsp_taghandler_18.doAfterBody()==javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN);
-                out=OracleJspRuntime.popBodyIfNeeded(pageContext,out);
               }
               if (__jsp_taghandler_18.doEndTag()==javax.servlet.jsp.tagext.Tag.SKIP_PAGE)
                 return;
@@ -395,37 +397,28 @@ public class _categoria extends oracle.jsp.runtime.HttpJsp {
             }
             /*@lineinfo:generated-code*/
             out.write(__jsp_StaticText.text[22]);
-          /*@lineinfo:translated-code*//*@lineinfo:209^121*/          } while (__jsp_taghandler_15.doAfterBody()==javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN);
-        }
-        if (__jsp_taghandler_15.doEndTag()==javax.servlet.jsp.tagext.Tag.SKIP_PAGE)
-          return;
-        OracleJspRuntime.releaseTagHandler(pageContext,__jsp_taghandler_15);
-      }
-      /*@lineinfo:generated-code*/
-      out.write(__jsp_StaticText.text[23]);
-      /*@lineinfo:translated-code*//*@lineinfo:235^39*/      {
-        org.apache.struts.taglib.logic.IterateTag __jsp_taghandler_19=(org.apache.struts.taglib.logic.IterateTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.logic.IterateTag.class,"org.apache.struts.taglib.logic.IterateTag id indexId name property");
-        __jsp_taghandler_19.setParent(null);
-        __jsp_taghandler_19.setId("tabla");
-        __jsp_taghandler_19.setIndexId("index");
-        __jsp_taghandler_19.setName("listados");
-        __jsp_taghandler_19.setProperty("tabla");
-        java.lang.Object tabla = null;
-        java.lang.Integer index = null;
-        __jsp_tag_starteval=__jsp_taghandler_19.doStartTag();
-        if (OracleJspRuntime.checkStartBodyTagEval(__jsp_tag_starteval))
-        {
-          out=OracleJspRuntime.pushBodyIfNeeded(pageContext,__jsp_taghandler_19,__jsp_tag_starteval,out);
-          do {
-            tabla = (java.lang.Object) pageContext.findAttribute("tabla");
-            index = (java.lang.Integer) pageContext.findAttribute("index");
+            /*@lineinfo:translated-code*//*@lineinfo:203^45*/            {
+              org.apache.struts.taglib.bean.WriteTag __jsp_taghandler_19=(org.apache.struts.taglib.bean.WriteTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.bean.WriteTag.class,"org.apache.struts.taglib.bean.WriteTag name property");
+              __jsp_taghandler_19.setParent(__jsp_taghandler_15);
+              __jsp_taghandler_19.setName("tabla");
+              __jsp_taghandler_19.setProperty("apellido");
+              __jsp_tag_starteval=__jsp_taghandler_19.doStartTag();
+              if (OracleJspRuntime.checkStartTagEval(__jsp_tag_starteval))
+              {
+                do {
+                } while (__jsp_taghandler_19.doAfterBody()==javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN);
+              }
+              if (__jsp_taghandler_19.doEndTag()==javax.servlet.jsp.tagext.Tag.SKIP_PAGE)
+                return;
+              OracleJspRuntime.releaseTagHandler(pageContext,__jsp_taghandler_19);
+            }
             /*@lineinfo:generated-code*/
-            out.write(__jsp_StaticText.text[24]);
-            /*@lineinfo:translated-code*//*@lineinfo:237^47*/            {
+            out.write(__jsp_StaticText.text[23]);
+            /*@lineinfo:translated-code*//*@lineinfo:204^45*/            {
               org.apache.struts.taglib.bean.WriteTag __jsp_taghandler_20=(org.apache.struts.taglib.bean.WriteTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.bean.WriteTag.class,"org.apache.struts.taglib.bean.WriteTag name property");
-              __jsp_taghandler_20.setParent(__jsp_taghandler_19);
+              __jsp_taghandler_20.setParent(__jsp_taghandler_15);
               __jsp_taghandler_20.setName("tabla");
-              __jsp_taghandler_20.setProperty("id");
+              __jsp_taghandler_20.setProperty("correo");
               __jsp_tag_starteval=__jsp_taghandler_20.doStartTag();
               if (OracleJspRuntime.checkStartTagEval(__jsp_tag_starteval))
               {
@@ -437,12 +430,12 @@ public class _categoria extends oracle.jsp.runtime.HttpJsp {
               OracleJspRuntime.releaseTagHandler(pageContext,__jsp_taghandler_20);
             }
             /*@lineinfo:generated-code*/
-            out.write(__jsp_StaticText.text[25]);
-            /*@lineinfo:translated-code*//*@lineinfo:238^47*/            {
+            out.write(__jsp_StaticText.text[24]);
+            /*@lineinfo:translated-code*//*@lineinfo:205^45*/            {
               org.apache.struts.taglib.bean.WriteTag __jsp_taghandler_21=(org.apache.struts.taglib.bean.WriteTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.bean.WriteTag.class,"org.apache.struts.taglib.bean.WriteTag name property");
-              __jsp_taghandler_21.setParent(__jsp_taghandler_19);
+              __jsp_taghandler_21.setParent(__jsp_taghandler_15);
               __jsp_taghandler_21.setName("tabla");
-              __jsp_taghandler_21.setProperty("nombre");
+              __jsp_taghandler_21.setProperty("telefono");
               __jsp_tag_starteval=__jsp_taghandler_21.doStartTag();
               if (OracleJspRuntime.checkStartTagEval(__jsp_tag_starteval))
               {
@@ -454,16 +447,54 @@ public class _categoria extends oracle.jsp.runtime.HttpJsp {
               OracleJspRuntime.releaseTagHandler(pageContext,__jsp_taghandler_21);
             }
             /*@lineinfo:generated-code*/
-            out.write(__jsp_StaticText.text[26]);
-          /*@lineinfo:translated-code*//*@lineinfo:238^92*/          } while (__jsp_taghandler_19.doAfterBody()==javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN);
+            out.write(__jsp_StaticText.text[25]);
+            /*@lineinfo:translated-code*//*@lineinfo:207^45*/            {
+              org.apache.struts.taglib.html.SubmitTag __jsp_taghandler_22=(org.apache.struts.taglib.html.SubmitTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.html.SubmitTag.class,"org.apache.struts.taglib.html.SubmitTag property styleClass");
+              __jsp_taghandler_22.setParent(__jsp_taghandler_15);
+              __jsp_taghandler_22.setProperty("cod");
+              __jsp_taghandler_22.setStyleClass("btn btn-primary btn-link btn-sm");
+              __jsp_tag_starteval=__jsp_taghandler_22.doStartTag();
+              if (OracleJspRuntime.checkStartBodyTagEval(__jsp_tag_starteval))
+              {
+                out=OracleJspRuntime.pushBodyIfNeeded(pageContext,__jsp_taghandler_22,__jsp_tag_starteval,out);
+                do {
+                  /*@lineinfo:generated-code*/
+                  out.write(__jsp_StaticText.text[26]);
+                  /*@lineinfo:translated-code*//*@lineinfo:208^47*/                  {
+                    org.apache.struts.taglib.bean.WriteTag __jsp_taghandler_23=(org.apache.struts.taglib.bean.WriteTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.bean.WriteTag.class,"org.apache.struts.taglib.bean.WriteTag name property");
+                    __jsp_taghandler_23.setParent(__jsp_taghandler_22);
+                    __jsp_taghandler_23.setName("tabla");
+                    __jsp_taghandler_23.setProperty("id");
+                    __jsp_tag_starteval=__jsp_taghandler_23.doStartTag();
+                    if (OracleJspRuntime.checkStartTagEval(__jsp_tag_starteval))
+                    {
+                      do {
+                      } while (__jsp_taghandler_23.doAfterBody()==javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN);
+                    }
+                    if (__jsp_taghandler_23.doEndTag()==javax.servlet.jsp.tagext.Tag.SKIP_PAGE)
+                      return;
+                    OracleJspRuntime.releaseTagHandler(pageContext,__jsp_taghandler_23);
+                  }
+                  /*@lineinfo:generated-code*/
+                  out.write(__jsp_StaticText.text[27]);
+                /*@lineinfo:translated-code*//*@lineinfo:208^88*/                } while (__jsp_taghandler_22.doAfterBody()==javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN);
+                out=OracleJspRuntime.popBodyIfNeeded(pageContext,out);
+              }
+              if (__jsp_taghandler_22.doEndTag()==javax.servlet.jsp.tagext.Tag.SKIP_PAGE)
+                return;
+              OracleJspRuntime.releaseTagHandler(pageContext,__jsp_taghandler_22);
+            }
+            /*@lineinfo:generated-code*/
+            out.write(__jsp_StaticText.text[28]);
+          /*@lineinfo:translated-code*//*@lineinfo:209^59*/          } while (__jsp_taghandler_15.doAfterBody()==javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN);
           out=OracleJspRuntime.popBodyIfNeeded(pageContext,out);
         }
-        if (__jsp_taghandler_19.doEndTag()==javax.servlet.jsp.tagext.Tag.SKIP_PAGE)
+        if (__jsp_taghandler_15.doEndTag()==javax.servlet.jsp.tagext.Tag.SKIP_PAGE)
           return;
-        OracleJspRuntime.releaseTagHandler(pageContext,__jsp_taghandler_19);
+        OracleJspRuntime.releaseTagHandler(pageContext,__jsp_taghandler_15);
       }
       /*@lineinfo:generated-code*/
-      out.write(__jsp_StaticText.text[27]);
+      out.write(__jsp_StaticText.text[29]);
 
 
     }
@@ -482,7 +513,7 @@ public class _categoria extends oracle.jsp.runtime.HttpJsp {
 
   }
   private static class __jsp_StaticText {
-    private static final char text[][]=new char[28][];
+    private static final char text[][]=new char[30][];
     static {
       try {
       text[0] = 
@@ -492,55 +523,59 @@ public class _categoria extends oracle.jsp.runtime.HttpJsp {
       text[2] = 
       "\n".toCharArray();
       text[3] = 
-      "\n<html>\n<head>\n  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=windows-1252\">\n  <meta charset=\"utf-8\" />\n  <link rel=\"apple-touch-icon\" sizes=\"76x76\" href=\"assets1/img/apple-icon.png\">\n  <link rel=\"icon\" type=\"image/png\" href=\"assets1/img/favicon.png\">\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\" />\n  <title>\n    Galeria de Arte\n  </title>\n  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />\n  <!--     Fonts and icons     -->\n  <link rel=\"stylesheet\" type=\"text/css\" href=\"https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons\" />\n  <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css\">\n  <!-- CSS Files -->\n  <link href=\"assets1/css/material-dashboard.css?v=2.1.1\" rel=\"stylesheet\" />\n  <!-- CSS Just for demo purpose, don't include it in your project -->\n  <link href=\"assets1/demo/demo.css\" rel=\"stylesheet\" />\n</head>\n<body class=\"\">\n  <div class=\"wrapper \">\n    <div class=\"sidebar\" data-color=\"azure\" data-background-color=\"white\" data-image=\"assets1/img/sidebar-1.jpg\">\n      <div class=\"logo\">\n        <a href=\"http://www.creative-tim.com\" class=\"simple-text logo-normal\">\n          Galeria de arte\n        </a>\n      </div>\n      ".toCharArray();
+      "\n<html>\n<head>\n  <meta charset=\"utf-8\" />\n  <link rel=\"apple-touch-icon\" sizes=\"76x76\" href=\"assets1/img/apple-icon.png\">\n  <link rel=\"icon\" type=\"image/png\" href=\"assets1/img/favicon.png\">\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\" />\n  <title>Galeria de Arte</title>\n  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />\n  <!--     Fonts and icons     -->\n  <link rel=\"stylesheet\" type=\"text/css\" href=\"https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons\" />\n  <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css\">\n  <!-- CSS Files -->\n  <link href=\"assets1/css/material-dashboard.css?v=2.1.1\" rel=\"stylesheet\" />\n  <!-- CSS Just for demo purpose, don't include it in your project -->\n  <link href=\"assets1/demo/demo.css\" rel=\"stylesheet\" />\n  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=windows-1252\">\n</head>\n<body>\n  <div class=\"wrapper \">\n    <div class=\"sidebar\" data-color=\"purple\" data-background-color=\"white\" data-image=\"assets1/img/sidebar-1.jpg\">\n      <div class=\"logo\">\n        <a href=\"http://www.creative-tim.com\" class=\"simple-text logo-normal\">\n          Galeria de arte\n        </a>\n      </div>\n      ".toCharArray();
       text[4] = 
-      "\n        <div class=\"sidebar-wrapper\">\n          <ul class=\"nav\">  \n            <li class=\"nav-item\">\n              <a class=\"nav-link\" href=\"./dashboard.jsp\">\n                <i class=\"material-icons\">vertical_split</i>\n                <p>".toCharArray();
+      "\n        <div class=\"sidebar-wrapper\">\n          <ul class=\"nav\">\n            <li class=\"nav-item active\">\n              <a class=\"nav-link\" href=\"./dashboard.jsp\">\n                <i class=\"material-icons\">palette</i>\n                ".toCharArray();
       text[5] = 
-      "</p>\n              </a>\n            </li>\n            <li class=\"nav-item\">\n              <a class=\"nav-link\" href=\"./artista.jsp\">\n                <i class=\"material-icons\">palette</i>\n                ".toCharArray();
+      "\n              </a>\n            </li>\n            <li class=\"nav-item \">\n              <a class=\"nav-link\" href=\"./categoria.jsp\">\n                <i class=\"material-icons\">rate_review</i>\n                <p>".toCharArray();
       text[6] = 
-      "\n              </a>\n            </li>\n            <li class=\"nav-item active\">\n              <a class=\"nav-link\" href=\"./categoria.jsp\">\n                <i class=\"material-icons\">rate_review</i>\n                <p>".toCharArray();
-      text[7] = 
       "</p>\n              </a>\n            </li>\n            <li class=\"nav-item \">\n              <a class=\"nav-link\" href=\"./comprador.jsp\">\n                <i class=\"material-icons\">supervisor_account</i>\n                <p>".toCharArray();
-      text[8] = 
+      text[7] = 
       "</p>\n              </a>\n            </li>\n            <li class=\"nav-item \">\n              <a class=\"nav-link\" href=\"./envio.jsp\">\n                <i class=\"material-icons\">local_airport</i>\n                <p>".toCharArray();
-      text[9] = 
+      text[8] = 
       "</p>\n              </a>\n            </li>\n          <li class=\"nav-item  \">\n              <a class=\"nav-link\" href=\"./exposicion.jsp\">\n                <i class=\"material-icons\">layers</i>\n                <p>".toCharArray();
-      text[10] = 
+      text[9] = 
       "</p>\n              </a>\n            </li>\n            <li class=\"nav-item \">\n              <a class=\"nav-link\" href=\"./factura.jsp\">\n                <i class=\"material-icons\">receipt</i>\n                <p>".toCharArray();
-      text[11] = 
+      text[10] = 
       "</p>\n              </a>\n            </li>\n            <li class=\"nav-item \">\n              <a class=\"nav-link\" href=\"./obra.jsp\">\n                <i class=\"material-icons\">photo_size_select_actual</i>\n                <p>".toCharArray();
-      text[12] = 
+      text[11] = 
       "</p>\n              </a>\n            </li>\n            <li class=\"nav-item \">\n              <a class=\"nav-link\" href=\"./orden.jsp\">\n                <i class=\"material-icons\">image_search</i>\n                <p>".toCharArray();
-      text[13] = 
+      text[12] = 
       "</p>\n              </a>\n            </li>\n            <li class=\"nav-item \">\n              <a class=\"nav-link\" href=\"./pago.jsp\">\n                <i class=\"material-icons\">monetization_on</i>\n                <p>".toCharArray();
-      text[14] = 
+      text[13] = 
       "</p>\n              </a>\n            </li>\n            <li class=\"nav-item \">\n              <a class=\"nav-link\" href=\"./propietario.jsp\">\n                <i class=\"material-icons\">person</i>\n                <p>".toCharArray();
-      text[15] = 
+      text[14] = 
       "</p>\n              </a>\n            </li>\n            <li class=\"nav-item \">\n              <a class=\"nav-link\" href=\"./registroExposicion.jsp\">\n                <i class=\"material-icons\">view_carousel</i>\n                <p>".toCharArray();
+      text[15] = 
+      "</p>\n              </a>\n            </li>\n            <li class=\"nav-item \">\n              <a class=\"nav-link\" href=\"./registroObra.jsp\">\n                <i class=\"material-icons\">vertical_split</i>\n                <p>".toCharArray();
       text[16] = 
       "</p>\n              </a>\n            </li>\n            <li class=\"nav-item \">\n              <a class=\"nav-link\" href=\"./salon.jsp\">\n                <i class=\"material-icons\">store</i>\n                <p>".toCharArray();
       text[17] = 
       "</p>\n              </a>\n            </li>\n            </ul>\n        </div>\n      </div>\n    ".toCharArray();
       text[18] = 
-      "\n    \n    <div class=\"main-panel\">\n      <!-- Navbar -->\n      <nav class=\"navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top \">\n        <div class=\"container-fluid\">\n          <div class=\"navbar-wrapper\">\n            <a class=\"navbar-brand\" href=\"#pablo\">Inicio</a>\n          </div>\n          <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" aria-controls=\"navigation-index\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <span class=\"sr-only\">Toggle navigation</span>\n            <span class=\"navbar-toggler-icon icon-bar\"></span>\n            <span class=\"navbar-toggler-icon icon-bar\"></span>\n            <span class=\"navbar-toggler-icon icon-bar\"></span>\n          </button>\n          <div class=\"collapse navbar-collapse justify-content-end\">\n            <ul class=\"navbar-nav\">\n              <li class=\"nav-item dropdown\">\n                <a class=\"nav-link\" href=\"#pablo\" id=\"navbarDropdownProfile\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\n                  <i class=\"material-icons\">person</i>\n                  <p class=\"d-lg-none d-md-block\">\n                    Account\n                  </p>\n                </a>\n                <div class=\"dropdown-menu dropdown-menu-right\" aria-labelledby=\"navbarDropdownProfile\">\n                  <a class=\"dropdown-item\" href=\"#\">Log out</a>\n                </div>\n              </li>\n            </ul>\n          </div>\n        </div>\n      </nav>\n      <!-- End Navbar -->\n      <div class=\"content\">\n        <div class=\"container-fluid\">\n          <div class=\"row\">\n            <div class=\"col-md-12\">\n              <div class=\"row\">\n                <div class=\"col-lg-12 col-md-12\">\n                  <div class=\"card\">\n                    <div class=\"card-header card-header-tabs card-header-info\">\n                      <div class=\"nav-tabs-navigation\">\n                        <div class=\"nav-tabs-wrapper\">\n                          <ul class=\"nav nav-tabs\" data-tabs=\"tabs\">\n                            <li class=\"nav-item\">\n                              <a class=\"nav-link active\" href=\"#altas\" data-toggle=\"tab\">\n                                <i class=\"material-icons\">playlist_add</i> Altas\n                                <div class=\"ripple-container\"></div>\n                              </a>\n                            </li>\n                            <li class=\"nav-item\">\n                              <a class=\"nav-link\" href=\"#bajas\" data-toggle=\"tab\">\n                                <i class=\"material-icons\">assignment</i> Listado\n                                <div class=\"ripple-container\"></div>\n                              </a>\n                            </li>\n                            <li class=\"nav-item\">\n                              <a class=\"nav-link\" href=\"#modificaciones\" data-toggle=\"tab\">\n                                <i class=\"material-icons\">loop</i> Modificaciones\n                                <div class=\"ripple-container\"></div>\n                              </a>\n                            </li>\n                          </ul>\n                        </div>\n                      </div>\n                    </div>\n                    <div class=\"card-body\">\n                      <div class=\"tab-content\">\n                        <div class=\"tab-pane active\" id=\"altas\">\n                          <table class=\"table\">\n                            <tbody>\n                              <tr>\n                                <div class=\"content\">\n                                  <div class=\"container-fluid\">\n                                    <div class=\"row\">\n                                      <div class=\"col-md-12\">\n                                        <div class=\"card\">\n                                          <div class=\"card-body\">\n                                            ".toCharArray();
+      "\n    \n    <div class=\"main-panel\">\n      <!-- Navbar -->\n      <nav class=\"navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top \">\n        <div class=\"container-fluid\">\n          <div class=\"navbar-wrapper\">\n            <a class=\"navbar-brand\" href=\"#pablo\">Inicio</a>\n          </div>\n          <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" aria-controls=\"navigation-index\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <span class=\"sr-only\">Toggle navigation</span>\n            <span class=\"navbar-toggler-icon icon-bar\"></span>\n            <span class=\"navbar-toggler-icon icon-bar\"></span>\n            <span class=\"navbar-toggler-icon icon-bar\"></span>\n          </button>\n          <div class=\"collapse navbar-collapse justify-content-end\">\n            <ul class=\"navbar-nav\">\n              <li class=\"nav-item dropdown\">\n                <a class=\"nav-link\" href=\"#pablo\" id=\"navbarDropdownProfile\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\n                  <i class=\"material-icons\">person</i>\n                  <p class=\"d-lg-none d-md-block\">\n                    Account\n                  </p>\n                </a>\n                <div class=\"dropdown-menu dropdown-menu-right\" aria-labelledby=\"navbarDropdownProfile\">\n                  <a class=\"dropdown-item\" href=\"inicio.jsp\">Log out</a>\n                </div>\n              </li>\n            </ul>\n          </div>\n        </div>\n      </nav>\n      <!-- End Navbar -->\n      <div class=\"content\">\n        <div class=\"container-fluid\">\n          <div class=\"row\">\n            <div class=\"col-md-12\">\n              <div class=\"row\">\n                <div class=\"col-lg-12 col-md-12\">\n                  <div class=\"card\">\n                    <div class=\"card-header card-header-tabs card-header-primary\">\n                      <div class=\"nav-tabs-navigation\">\n                        <div class=\"nav-tabs-wrapper\">\n                        <ul class=\"nav nav-tabs\" data-tabs=\"tabs\">\n                          <li class=\"nav-item\">\n                            <a class=\"nav-link \" href=\"#altas\" data-toggle=\"tab\">\n                              <i class=\"material-icons\">playlist_add</i> Altas\n                              <div class=\"ripple-container\"></div>\n                            </a>\n                          </li>\n                          <li class=\"nav-item active\">\n                            <a class=\"nav-link\" href=\"#bajas\" data-toggle=\"tab\">\n                              <i class=\"material-icons\">assignment</i> Listado\n                              <div class=\"ripple-container\"></div>\n                            </a>\n                          </li>\n                          <li class=\"nav-item\">\n                            <a class=\"nav-link\" href=\"#modificaciones\" data-toggle=\"tab\">\n                              <i class=\"material-icons\">loop</i> Modificaciones\n                              <div class=\"ripple-container\"></div>\n                            </a>\n                          </li>\n                        </ul>\n                      </div>\n                    </div>\n                  </div>\n                  <div class=\"card-body\">\n                    <div class=\"tab-content\">\n                      <div class=\"tab-pane\" id=\"bajas\">\n                        <div class=\"col-md-12\">\n                          <div class=\"card card-plain\">\n                            <div class=\"card-body\">\n                              <div class=\"table-responsive\">\n                                <table class=\"table table-hover\">\n                                  <thead class=\"\">\n                                    <th>ID</th>\n                                    <th>Carnet</th>\n                                    <th>Nombre</th>\n                                    <th>Apellido</th>\n                                    <th>Correo</th>\n                                    <th>Telefono</th>\n                                    <th></th>\n                                  </thead>\n                                  <tbody>\n                                    ".toCharArray();
       text[19] = 
-      "\n                                              <div class=\"row\">\n                                                <div class=\"col-md-12\">\n                                                  <div class=\"form-group\">\n                                                    <label class=\"bmd-label-floating\">ID</label>\n                                                    ".toCharArray();
+      "\n                                      <tr>\n                                        <td>".toCharArray();
       text[20] = 
-      "\n                                                  </div>\n                                                </div>\n                                                <div class=\"col-md-12\">\n                                                  <div class=\"form-group\">\n                                                    <label class=\"bmd-label-floating\">Nombre</label>\n                                                    ".toCharArray();
+      "</td>\n                                        <td>".toCharArray();
       text[21] = 
-      "\n                                                  </div>\n                                                </div>\n                                                <div class=\"col-md-12\">\n                                                  ".toCharArray();
+      "</td>\n                                        <td>".toCharArray();
       text[22] = 
-      "\n                                                </div>\n                                              </div>\n                                            ".toCharArray();
+      "</td>\n                                        <td>".toCharArray();
       text[23] = 
-      "\n                                          </div>\n                                        </div>\n                                      </div>\n                                    </div>\n                                  </div>\n                                </div>\n                              </tr>            \n                            </tbody>\n                          </table>\n                        </div>\n                        <div class=\"tab-pane\" id=\"bajas\">\n                          <div class=\"col-md-12\">\n                            <div class=\"card card-plain\">\n                              <div class=\"card-body\">\n                                <div class=\"table-responsive\">\n                                  <table class=\"table table-hover\">\n                                    <thead class=\"\">\n                                      <th>ID</th>\n                                      <th>Nombre</th>\n                                      <th></th>\n                                    </thead>\n                                    <tbody>\n                                      ".toCharArray();
+      "</td>\n                                        <td>".toCharArray();
       text[24] = 
-      "\n                                        <tr>\n                                          <td>".toCharArray();
+      "</td>\n                                        <td>".toCharArray();
       text[25] = 
-      "</td>\n                                          <td>".toCharArray();
+      "</td>\n                                        <td class=\"td-actions text-right\">\n                                            ".toCharArray();
       text[26] = 
-      "</td>\n                                          <td class=\"td-actions text-right\">\n                                          <button type=\"button\" rel=\"tooltip\" title=\"Edit Task\" class=\"btn btn-primary btn-link btn-sm\">\n                                            <i class=\"material-icons\">edit</i>\n                                          </button>\n                                          <button type=\"button\" rel=\"tooltip\" title=\"Remove\" class=\"btn btn-danger btn-link btn-sm\">\n                                            <i class=\"material-icons\">close</i>\n                                          </button>\n                                          </td>\n                                        </tr>\n                                      ".toCharArray();
+      "  \n                                              ".toCharArray();
       text[27] = 
-      "\n                                    </tbody>\n                                  </table>\n                                </div>\n                              </div>\n                            </div>\n                          </div>\n                        </div>\n                        <div class=\"tab-pane\" id=\"modificaciones\">\n                          <table class=\"table\">\n                            <tbody>\n                              <tr>\n                                <td>\n                               </td>\n                                 <div class=\"content\">\n                                  <div class=\"container-fluid\">\n                                    <div class=\"row\">\n                                      <div class=\"col-md-12\">\n                                        <div class=\"card\">\n                                          <div class=\"card-body\">\n                                            <form>\n                                              <div class=\"row\">\n                                                <div class=\"col-md-6\">\n                                                  <div class=\"form-group\">\n                                                    <label class=\"bmd-label-floating\">Nombre</label>\n                                                    <input type=\"text\" class=\"form-control\">\n                                                  </div>\n                                                </div>\n                                                <div class=\"col-md-6\">\n                                                  <div class=\"form-group\">\n                                                    <label class=\"bmd-label-floating\">Apellido</label>\n                                                    <input type=\"text\" class=\"form-control\">\n                                                  </div>\n                                                </div>\n                                                <div class=\"col-md-12\">\n                                                  <div class=\"form-group\">\n                                                    <label class=\"bmd-label-floating\">Direccion</label>\n                                                    <input type=\"email\" class=\"form-control\">\n                                                  </div>\n                                                </div>\n                                              </div>\n                                              <div class=\"row\">\n                                    \n                                                <div class=\"col-md-6\">\n                                                  <div class=\"form-group\">\n                                                    <label class=\"bmd-label-floating\">Celular</label>\n                                                    <input type=\"text\" class=\"form-control\">\n                                                  </div>\n                                                </div>\n                                              </div>\n                                              <div class=\"row\">\n                                                <div class=\"col-md-6\">\n                                                  <div class=\"form-group\">\n                                                    <label class=\"bmd-label-floating\">Ciudad</label>\n                                                    <input type=\"text\" class=\"form-control\">\n                                                  </div>\n                                                </div>\n                                                <div class=\"col-md-6\">\n                                                  <div class=\"form-group\">\n                                                    <label class=\"bmd-label-floating\">CI</label>\n                                                    <input type=\"text\" class=\"form-control\">\n                                                  </div>\n                                                </div>\n                                              </div>\n                                              <button type=\"submit\" class=\"btn btn-info pull-right\">Registrar</button>\n                                            </form>\n                                          </div>\n                                        </div>\n                                      </div>\n                                    </div>\n                                  </div>\n                                </div>\n                              </tr>            \n                            </tbody>\n                          </table>\n                        </div>\n                      </div>\n                    </div>\n                  </div>\n                </div>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n <!--   Core JS Files   -->\n  <script src=\"assets1/js/core/jquery.min.js\"></script>\n  <script src=\"assets1/js/core/popper.min.js\"></script>\n  <script src=\"assets1/js/core/bootstrap-material-design.min.js\"></script>\n  <script src=\"assets1/js/plugins/perfect-scrollbar.jquery.min.js\"></script>\n  <!-- Plugin for the momentJs  -->\n  <script src=\"assets1/js/plugins/moment.min.js\"></script>\n  <!--  Plugin for Sweet Alert -->\n  <script src=\"assets1/js/plugins/sweetalert2.js\"></script>\n  <!-- Forms Validations Plugin -->\n  <script src=\"assets1/js/plugins/jquery.validate.min.js\"></script>\n  <!-- Plugin for the Wizard, full documentation here: https://github.com/VinceG/twitter-bootstrap-wizard -->\n  <script src=\"assets1/js/plugins/jquery.bootstrap-wizard.js\"></script>\n  <!--  Plugin for Select, full documentation here: http://silviomoreto.github.io/bootstrap-select -->\n  <script src=\"assets1/js/plugins/bootstrap-selectpicker.js\"></script>\n  <!--  Plugin for the DateTimePicker, full documentation here: https://eonasdan.github.io/bootstrap-datetimepicker/ -->\n  <script src=\"assets1/js/plugins/bootstrap-datetimepicker.min.js\"></script>\n  <!--  DataTables.net Plugin, full documentation here: https://datatables.net/  -->\n  <script src=\"assets1/js/plugins/jquery.dataTables.min.js\"></script>\n  <!--  Plugin for Tags, full documentation here: https://github.com/bootstrap-tagsinput/bootstrap-tagsinputs  -->\n  <script src=\"assets1/js/plugins/bootstrap-tagsinput.js\"></script>\n  <!-- Plugin for Fileupload, full documentation here: http://www.jasny.net/bootstrap/javascript/#fileinput -->\n  <script src=\"assets1/js/plugins/jasny-bootstrap.min.js\"></script>\n  <!--  Full Calendar Plugin, full documentation here: https://github.com/fullcalendar/fullcalendar    -->\n  <script src=\"assets1/js/plugins/fullcalendar.min.js\"></script>\n  <!-- Vector Map plugin, full documentation here: http://jvectormap.com/documentation/ -->\n  <script src=\"assets1/js/plugins/jquery-jvectormap.js\"></script>\n  <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->\n  <script src=\"assets1/js/plugins/nouislider.min.js\"></script>\n  <!-- Include a polyfill for ES6 Promises (optional) for IE11, UC Browser and Android browser support SweetAlert -->\n  <script src=\"https://cdnjs.cloudflare.com/ajax/libs/core-js/2.4.1/core.js\"></script>\n  <!-- Library for adding dinamically elements -->\n  <script src=\"assets1/js/plugins/arrive.min.js\"></script>\n  <!--  Google Maps Plugin    -->\n  <script src=\"https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE\"></script>\n  <!-- Chartist JS -->\n  <script src=\"assets1/js/plugins/chartist.min.js\"></script>\n  <!--  Notifications Plugin    -->\n  <script src=\"assets1/js/plugins/bootstrap-notify.js\"></script>\n  <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->\n  <script src=\"assets1/js/material-dashboard.js?v=2.1.1\" type=\"text/javascript\"></script>\n  <!-- Material Dashboard DEMO methods, don't include it in your project! -->\n  <script src=\"assets1/demo/demo.js\"></script>\n</body>\n</html>\n".toCharArray();
+      "\n                                            ".toCharArray();
+      text[28] = 
+      "\n                                            <!--<button type=\"button\" rel=\"tooltip\" title=\"Edit Task\" class=\"btn btn-primary btn-link btn-sm\">\n                                            \n                                            </button>\n                                            <button type=\"button\" rel=\"tooltip\" title=\"Remove\" class=\"btn btn-danger btn-link btn-sm\">\n                                              <i class=\"material-icons\">close</i>\n                                            </button>-->\n                                        </td>\n                                      </tr>\n                                    ".toCharArray();
+      text[29] = 
+      "\n                                  </tbody>\n                                </table>\n                              </div>\n                            </div>\n                          </div>\n                        </div>\n                      </div>  \n                  </div>\n                </div>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n      </div>\n    </div>\n    </div>\n  </div>\n <!--   Core JS Files   -->\n  <script src=\"assets1/js/core/jquery.min.js\"></script>\n  <script src=\"assets1/js/core/popper.min.js\"></script>\n  <script src=\"assets1/js/core/bootstrap-material-design.min.js\"></script>\n  <script src=\"assets1/js/plugins/perfect-scrollbar.jquery.min.js\"></script>\n  <!-- Plugin for the momentJs  -->\n  <script src=\"assets1/js/plugins/moment.min.js\"></script>\n  <!--  Plugin for Sweet Alert -->\n  <script src=\"assets1/js/plugins/sweetalert2.js\"></script>\n  <!-- Forms Validations Plugin -->\n  <script src=\"assets1/js/plugins/jquery.validate.min.js\"></script>\n  <!-- Plugin for the Wizard, full documentation here: https://github.com/VinceG/twitter-bootstrap-wizard -->\n  <script src=\"assets1/js/plugins/jquery.bootstrap-wizard.js\"></script>\n  <!--  Plugin for Select, full documentation here: http://silviomoreto.github.io/bootstrap-select -->\n  <script src=\"assets1/js/plugins/bootstrap-selectpicker.js\"></script>\n  <!--  Plugin for the DateTimePicker, full documentation here: https://eonasdan.github.io/bootstrap-datetimepicker/ -->\n  <script src=\"assets1/js/plugins/bootstrap-datetimepicker.min.js\"></script>\n  <!--  DataTables.net Plugin, full documentation here: https://datatables.net/  -->\n  <script src=\"assets1/js/plugins/jquery.dataTables.min.js\"></script>\n  <!--  Plugin for Tags, full documentation here: https://github.com/bootstrap-tagsinput/bootstrap-tagsinputs  -->\n  <script src=\"assets1/js/plugins/bootstrap-tagsinput.js\"></script>\n  <!-- Plugin for Fileupload, full documentation here: http://www.jasny.net/bootstrap/javascript/#fileinput -->\n  <script src=\"assets1/js/plugins/jasny-bootstrap.min.js\"></script>\n  <!--  Full Calendar Plugin, full documentation here: https://github.com/fullcalendar/fullcalendar    -->\n  <script src=\"assets1/js/plugins/fullcalendar.min.js\"></script>\n  <!-- Vector Map plugin, full documentation here: http://jvectormap.com/documentation/ -->\n  <script src=\"assets1/js/plugins/jquery-jvectormap.js\"></script>\n  <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->\n  <script src=\"assets1/js/plugins/nouislider.min.js\"></script>\n  <!-- Include a polyfill for ES6 Promises (optional) for IE11, UC Browser and Android browser support SweetAlert -->\n  <script src=\"https://cdnjs.cloudflare.com/ajax/libs/core-js/2.4.1/core.js\"></script>\n  <!-- Library for adding dinamically elements -->\n  <script src=\"assets1/js/plugins/arrive.min.js\"></script>\n  <!--  Google Maps Plugin    -->\n  <script src=\"https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE\"></script>\n  <!-- Chartist JS -->\n  <script src=\"assets1/js/plugins/chartist.min.js\"></script>\n  <!--  Notifications Plugin    -->\n  <script src=\"assets1/js/plugins/bootstrap-notify.js\"></script>\n  <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->\n  <script src=\"assets1/js/material-dashboard.js?v=2.1.1\" type=\"text/javascript\"></script>\n  <!-- Material Dashboard DEMO methods, don't include it in your project! -->\n  <script src=\"assets1/demo/demo.js\"></script> \n</body>\n</html>\n".toCharArray();
       }
       catch (Throwable th) {
         System.err.println(th);

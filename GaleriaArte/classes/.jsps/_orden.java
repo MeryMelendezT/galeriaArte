@@ -44,7 +44,7 @@ public class _orden extends com.orionserver.http.OrionHttpJspPage {
 
       __ojsp_s_out.write(__jsp_StaticText.text[0]);
       __ojsp_s_out.write(__jsp_StaticText.text[1]);
-      /*@lineinfo:translated-code*//*@lineinfo:28^7*/      {
+      /*@lineinfo:translated-code*//*@lineinfo:28^13*/      {
         org.apache.struts.taglib.html.FormTag __jsp_taghandler_1=(org.apache.struts.taglib.html.FormTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.html.FormTag.class,"org.apache.struts.taglib.html.FormTag action");
         __jsp_taghandler_1.setParent(null);
         __jsp_taghandler_1.setAction("/navbar");
@@ -54,12 +54,12 @@ public class _orden extends com.orionserver.http.OrionHttpJspPage {
           do {
             /*@lineinfo:generated-code*/
             __ojsp_s_out.write(__jsp_StaticText.text[2]);
-            /*@lineinfo:translated-code*//*@lineinfo:34^17*/            {
+            /*@lineinfo:translated-code*//*@lineinfo:34^20*/            {
               org.apache.struts.taglib.html.SubmitTag __jsp_taghandler_2=(org.apache.struts.taglib.html.SubmitTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.html.SubmitTag.class,"org.apache.struts.taglib.html.SubmitTag property styleClass value");
               __jsp_taghandler_2.setParent(__jsp_taghandler_1);
               __jsp_taghandler_2.setProperty("boton");
               __jsp_taghandler_2.setStyleClass("btn btn-default btn-link");
-              __jsp_taghandler_2.setValue("Artista");
+              __jsp_taghandler_2.setValue("Dashboard");
               __jsp_tag_starteval=__jsp_taghandler_2.doStartTag();
               if (OracleJspRuntime.checkStartBodyTagEval(__jsp_tag_starteval))
               {
@@ -76,12 +76,12 @@ public class _orden extends com.orionserver.http.OrionHttpJspPage {
             }
             /*@lineinfo:generated-code*/
             __ojsp_s_out.write(__jsp_StaticText.text[3]);
-            /*@lineinfo:translated-code*//*@lineinfo:40^20*/            {
+            /*@lineinfo:translated-code*//*@lineinfo:40^17*/            {
               org.apache.struts.taglib.html.SubmitTag __jsp_taghandler_3=(org.apache.struts.taglib.html.SubmitTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.html.SubmitTag.class,"org.apache.struts.taglib.html.SubmitTag property styleClass value");
               __jsp_taghandler_3.setParent(__jsp_taghandler_1);
               __jsp_taghandler_3.setProperty("boton");
               __jsp_taghandler_3.setStyleClass("btn btn-default btn-link");
-              __jsp_taghandler_3.setValue("Categoría");
+              __jsp_taghandler_3.setValue("Artista");
               __jsp_tag_starteval=__jsp_taghandler_3.doStartTag();
               if (OracleJspRuntime.checkStartBodyTagEval(__jsp_tag_starteval))
               {
@@ -103,7 +103,7 @@ public class _orden extends com.orionserver.http.OrionHttpJspPage {
               __jsp_taghandler_4.setParent(__jsp_taghandler_1);
               __jsp_taghandler_4.setProperty("boton");
               __jsp_taghandler_4.setStyleClass("btn btn-default btn-link");
-              __jsp_taghandler_4.setValue("Comprador");
+              __jsp_taghandler_4.setValue("Categoría");
               __jsp_tag_starteval=__jsp_taghandler_4.doStartTag();
               if (OracleJspRuntime.checkStartBodyTagEval(__jsp_tag_starteval))
               {
@@ -125,7 +125,7 @@ public class _orden extends com.orionserver.http.OrionHttpJspPage {
               __jsp_taghandler_5.setParent(__jsp_taghandler_1);
               __jsp_taghandler_5.setProperty("boton");
               __jsp_taghandler_5.setStyleClass("btn btn-default btn-link");
-              __jsp_taghandler_5.setValue("Envío");
+              __jsp_taghandler_5.setValue("Comprador");
               __jsp_tag_starteval=__jsp_taghandler_5.doStartTag();
               if (OracleJspRuntime.checkStartBodyTagEval(__jsp_tag_starteval))
               {
@@ -147,7 +147,7 @@ public class _orden extends com.orionserver.http.OrionHttpJspPage {
               __jsp_taghandler_6.setParent(__jsp_taghandler_1);
               __jsp_taghandler_6.setProperty("boton");
               __jsp_taghandler_6.setStyleClass("btn btn-default btn-link");
-              __jsp_taghandler_6.setValue("Exposición");
+              __jsp_taghandler_6.setValue("Envío");
               __jsp_tag_starteval=__jsp_taghandler_6.doStartTag();
               if (OracleJspRuntime.checkStartBodyTagEval(__jsp_tag_starteval))
               {
@@ -169,7 +169,7 @@ public class _orden extends com.orionserver.http.OrionHttpJspPage {
               __jsp_taghandler_7.setParent(__jsp_taghandler_1);
               __jsp_taghandler_7.setProperty("boton");
               __jsp_taghandler_7.setStyleClass("btn btn-default btn-link");
-              __jsp_taghandler_7.setValue("Factura");
+              __jsp_taghandler_7.setValue("Exposición");
               __jsp_tag_starteval=__jsp_taghandler_7.doStartTag();
               if (OracleJspRuntime.checkStartBodyTagEval(__jsp_tag_starteval))
               {
@@ -191,7 +191,7 @@ public class _orden extends com.orionserver.http.OrionHttpJspPage {
               __jsp_taghandler_8.setParent(__jsp_taghandler_1);
               __jsp_taghandler_8.setProperty("boton");
               __jsp_taghandler_8.setStyleClass("btn btn-default btn-link");
-              __jsp_taghandler_8.setValue("Obra");
+              __jsp_taghandler_8.setValue("Factura");
               __jsp_tag_starteval=__jsp_taghandler_8.doStartTag();
               if (OracleJspRuntime.checkStartBodyTagEval(__jsp_tag_starteval))
               {
@@ -213,7 +213,7 @@ public class _orden extends com.orionserver.http.OrionHttpJspPage {
               __jsp_taghandler_9.setParent(__jsp_taghandler_1);
               __jsp_taghandler_9.setProperty("boton");
               __jsp_taghandler_9.setStyleClass("btn btn-default btn-link");
-              __jsp_taghandler_9.setValue("Orden");
+              __jsp_taghandler_9.setValue("Obra");
               __jsp_tag_starteval=__jsp_taghandler_9.doStartTag();
               if (OracleJspRuntime.checkStartBodyTagEval(__jsp_tag_starteval))
               {
@@ -235,7 +235,7 @@ public class _orden extends com.orionserver.http.OrionHttpJspPage {
               __jsp_taghandler_10.setParent(__jsp_taghandler_1);
               __jsp_taghandler_10.setProperty("boton");
               __jsp_taghandler_10.setStyleClass("btn btn-default btn-link");
-              __jsp_taghandler_10.setValue("Pago");
+              __jsp_taghandler_10.setValue("Orden");
               __jsp_tag_starteval=__jsp_taghandler_10.doStartTag();
               if (OracleJspRuntime.checkStartBodyTagEval(__jsp_tag_starteval))
               {
@@ -257,7 +257,7 @@ public class _orden extends com.orionserver.http.OrionHttpJspPage {
               __jsp_taghandler_11.setParent(__jsp_taghandler_1);
               __jsp_taghandler_11.setProperty("boton");
               __jsp_taghandler_11.setStyleClass("btn btn-default btn-link");
-              __jsp_taghandler_11.setValue("Propietario");
+              __jsp_taghandler_11.setValue("Pago");
               __jsp_tag_starteval=__jsp_taghandler_11.doStartTag();
               if (OracleJspRuntime.checkStartBodyTagEval(__jsp_tag_starteval))
               {
@@ -279,7 +279,7 @@ public class _orden extends com.orionserver.http.OrionHttpJspPage {
               __jsp_taghandler_12.setParent(__jsp_taghandler_1);
               __jsp_taghandler_12.setProperty("boton");
               __jsp_taghandler_12.setStyleClass("btn btn-default btn-link");
-              __jsp_taghandler_12.setValue("Registro Exposición");
+              __jsp_taghandler_12.setValue("Propietario");
               __jsp_tag_starteval=__jsp_taghandler_12.doStartTag();
               if (OracleJspRuntime.checkStartBodyTagEval(__jsp_tag_starteval))
               {
@@ -301,7 +301,7 @@ public class _orden extends com.orionserver.http.OrionHttpJspPage {
               __jsp_taghandler_13.setParent(__jsp_taghandler_1);
               __jsp_taghandler_13.setProperty("boton");
               __jsp_taghandler_13.setStyleClass("btn btn-default btn-link");
-              __jsp_taghandler_13.setValue("Registro Obra");
+              __jsp_taghandler_13.setValue("Registro Exposición");
               __jsp_tag_starteval=__jsp_taghandler_13.doStartTag();
               if (OracleJspRuntime.checkStartBodyTagEval(__jsp_tag_starteval))
               {
@@ -382,7 +382,7 @@ public class _orden extends com.orionserver.http.OrionHttpJspPage {
             /*@lineinfo:translated-code*//*@lineinfo:204^27*/            {
               org.apache.struts.taglib.html.TextTag __jsp_taghandler_17=(org.apache.struts.taglib.html.TextTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.html.TextTag.class,"org.apache.struts.taglib.html.TextTag property styleClass");
               __jsp_taghandler_17.setParent(__jsp_taghandler_15);
-              __jsp_taghandler_17.setProperty("comprador_id");
+              __jsp_taghandler_17.setProperty("pago_id");
               __jsp_taghandler_17.setStyleClass("form-control");
               __jsp_tag_starteval=__jsp_taghandler_17.doStartTag();
               if (OracleJspRuntime.checkStartBodyTagEval(__jsp_tag_starteval))
@@ -403,7 +403,7 @@ public class _orden extends com.orionserver.http.OrionHttpJspPage {
             /*@lineinfo:translated-code*//*@lineinfo:211^27*/            {
               org.apache.struts.taglib.html.TextTag __jsp_taghandler_18=(org.apache.struts.taglib.html.TextTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.html.TextTag.class,"org.apache.struts.taglib.html.TextTag property styleClass");
               __jsp_taghandler_18.setParent(__jsp_taghandler_15);
-              __jsp_taghandler_18.setProperty("envio_id");
+              __jsp_taghandler_18.setProperty("obra_id");
               __jsp_taghandler_18.setStyleClass("form-control");
               __jsp_tag_starteval=__jsp_taghandler_18.doStartTag();
               if (OracleJspRuntime.checkStartBodyTagEval(__jsp_tag_starteval))
@@ -424,7 +424,7 @@ public class _orden extends com.orionserver.http.OrionHttpJspPage {
             /*@lineinfo:translated-code*//*@lineinfo:220^27*/            {
               org.apache.struts.taglib.html.TextTag __jsp_taghandler_19=(org.apache.struts.taglib.html.TextTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.html.TextTag.class,"org.apache.struts.taglib.html.TextTag property styleClass");
               __jsp_taghandler_19.setParent(__jsp_taghandler_15);
-              __jsp_taghandler_19.setProperty("envio_id");
+              __jsp_taghandler_19.setProperty("comprador_id");
               __jsp_taghandler_19.setStyleClass("form-control");
               __jsp_tag_starteval=__jsp_taghandler_19.doStartTag();
               if (OracleJspRuntime.checkStartBodyTagEval(__jsp_tag_starteval))
@@ -445,7 +445,7 @@ public class _orden extends com.orionserver.http.OrionHttpJspPage {
             /*@lineinfo:translated-code*//*@lineinfo:227^27*/            {
               org.apache.struts.taglib.html.TextTag __jsp_taghandler_20=(org.apache.struts.taglib.html.TextTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.html.TextTag.class,"org.apache.struts.taglib.html.TextTag property styleClass");
               __jsp_taghandler_20.setParent(__jsp_taghandler_15);
-              __jsp_taghandler_20.setProperty("registroObra_id");
+              __jsp_taghandler_20.setProperty("envio_id");
               __jsp_taghandler_20.setStyleClass("form-control");
               __jsp_tag_starteval=__jsp_taghandler_20.doStartTag();
               if (OracleJspRuntime.checkStartBodyTagEval(__jsp_tag_starteval))
@@ -516,31 +516,31 @@ public class _orden extends com.orionserver.http.OrionHttpJspPage {
       text[0] = 
       "\r\n".getBytes("Cp1252");
       text[1] = 
-      "\r\n<html>\r\n<head>\r\n  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=windows-1252\">\r\n  <meta charset=\"utf-8\" />\r\n  <link rel=\"apple-touch-icon\" sizes=\"76x76\" href=\"assets1/img/apple-icon.png\">\r\n  <link rel=\"icon\" type=\"image/png\" href=\"assets1/img/favicon.png\">\r\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\" />\r\n  <title>Galeria de Arte</title>\r\n  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />\r\n  <!--     Fonts and icons     -->\r\n  <link rel=\"stylesheet\" type=\"text/css\" href=\"https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons\" />\r\n  <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css\">\r\n  <!-- CSS Files -->\r\n  <link href=\"assets1/css/material-dashboard.css?v=2.1.1\" rel=\"stylesheet\" />\r\n  <!-- CSS Just for demo purpose, don't include it in your project -->\r\n  <link href=\"assets1/demo/demo.css\" rel=\"stylesheet\" />\r\n</head>\r\n<body>\r\n<div class=\"wrapper \">\r\n    <div class=\"sidebar\" data-color=\"orange\" data-background-color=\"white\" data-image=\"assets1/img/sidebar-1.jpg\">\r\n      <div class=\"logo\">\r\n        <a href=\"http://www.creative-tim.com\" class=\"simple-text logo-normal\">\r\n          Galeria de arte\r\n        </a>\r\n      </div>\r\n      ".getBytes("Cp1252");
+      "\r\n<html>\r\n<head>\r\n  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=windows-1252\">\r\n  <meta charset=\"utf-8\" />\r\n  <link rel=\"apple-touch-icon\" sizes=\"76x76\" href=\"assets1/img/apple-icon.png\">\r\n  <link rel=\"icon\" type=\"image/png\" href=\"assets1/img/favicon.png\">\r\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\" />\r\n  <title>Galeria de Arte</title>\r\n  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />\r\n  <!--     Fonts and icons     -->\r\n  <link rel=\"stylesheet\" type=\"text/css\" href=\"https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons\" />\r\n  <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css\">\r\n  <!-- CSS Files -->\r\n  <link href=\"assets1/css/material-dashboard.css?v=2.1.1\" rel=\"stylesheet\" />\r\n  <!-- CSS Just for demo purpose, don't include it in your project -->\r\n  <link href=\"assets1/demo/demo.css\" rel=\"stylesheet\" />\r\n</head>\r\n<body>\r\n<div class=\"wrapper \">\r\n    <div class=\"sidebar\" data-color=\"orange\" data-background-color=\"white\" data-image=\"assets1/img/sidebar-1.jpg\">\r\n      <div class=\"logo\">\r\n        <a href=\"http://www.creative-tim.com\" class=\"simple-text logo-normal\">\r\n          Galeria de arte\r\n        </a>\r\n      </div>\r\n            ".getBytes("Cp1252");
       text[2] = 
-      "\r\n        <div class=\"sidebar-wrapper\">\r\n          <ul class=\"nav\">\r\n            <li class=\"nav-item \">\r\n              <a class=\"nav-link\" href=\"./dashboard.jsp\">\r\n                <i class=\"material-icons\">palette</i>\r\n                ".getBytes("Cp1252");
+      "\r\n        <div class=\"sidebar-wrapper\">\r\n          <ul class=\"nav\">  \r\n            <li class=\"nav-item\">\r\n              <a class=\"nav-link\" href=\"./dashboard.jsp\">\r\n                <i class=\"material-icons\">vertical_split</i>\r\n                <p>".getBytes("Cp1252");
       text[3] = 
-      "\r\n              </a>\r\n            </li>\r\n            <li class=\"nav-item \">\r\n              <a class=\"nav-link\" href=\"./categoria.jsp\">\r\n                <i class=\"material-icons\">rate_review</i>\r\n                <p>".getBytes("Cp1252");
+      "</p>\r\n              </a>\r\n            </li>\r\n            <li class=\"nav-item\">\r\n              <a class=\"nav-link\" href=\"./artista.jsp\">\r\n                <i class=\"material-icons\">palette</i>\r\n                ".getBytes("Cp1252");
       text[4] = 
-      "</p>\r\n              </a>\r\n            </li>\r\n            <li class=\"nav-item \">\r\n              <a class=\"nav-link\" href=\"./comprador.jsp\">\r\n                <i class=\"material-icons\">supervisor_account</i>\r\n                <p>".getBytes("Cp1252");
+      "\r\n              </a>\r\n            </li>\r\n            <li class=\"nav-item \">\r\n              <a class=\"nav-link\" href=\"./categoria.jsp\">\r\n                <i class=\"material-icons\">rate_review</i>\r\n                <p>".getBytes("Cp1252");
       text[5] = 
-      "</p>\r\n              </a>\r\n            </li>\r\n            <li class=\"nav-item \">\r\n              <a class=\"nav-link\" href=\"./envio.jsp\">\r\n                <i class=\"material-icons\">local_airport</i>\r\n                <p>".getBytes("Cp1252");
+      "</p>\r\n              </a>\r\n            </li>\r\n            <li class=\"nav-item \">\r\n              <a class=\"nav-link\" href=\"./comprador.jsp\">\r\n                <i class=\"material-icons\">supervisor_account</i>\r\n                <p>".getBytes("Cp1252");
       text[6] = 
-      "</p>\r\n              </a>\r\n            </li>\r\n          <li class=\"nav-item  \">\r\n              <a class=\"nav-link\" href=\"./exposicion.jsp\">\r\n                <i class=\"material-icons\">layers</i>\r\n                <p>".getBytes("Cp1252");
+      "</p>\r\n              </a>\r\n            </li>\r\n            <li class=\"nav-item \">\r\n              <a class=\"nav-link\" href=\"./envio.jsp\">\r\n                <i class=\"material-icons\">local_airport</i>\r\n                <p>".getBytes("Cp1252");
       text[7] = 
-      "</p>\r\n              </a>\r\n            </li>\r\n            <li class=\"nav-item \">\r\n              <a class=\"nav-link\" href=\"./factura.jsp\">\r\n                <i class=\"material-icons\">receipt</i>\r\n                <p>".getBytes("Cp1252");
+      "</p>\r\n              </a>\r\n            </li>\r\n          <li class=\"nav-item  \">\r\n              <a class=\"nav-link\" href=\"./exposicion.jsp\">\r\n                <i class=\"material-icons\">layers</i>\r\n                <p>".getBytes("Cp1252");
       text[8] = 
-      "</p>\r\n              </a>\r\n            </li>\r\n            <li class=\"nav-item \">\r\n              <a class=\"nav-link\" href=\"./obra.jsp\">\r\n                <i class=\"material-icons\">photo_size_select_actual</i>\r\n                <p>".getBytes("Cp1252");
+      "</p>\r\n              </a>\r\n            </li>\r\n            <li class=\"nav-item \">\r\n              <a class=\"nav-link\" href=\"./factura.jsp\">\r\n                <i class=\"material-icons\">receipt</i>\r\n                <p>".getBytes("Cp1252");
       text[9] = 
-      "</p>\r\n              </a>\r\n            </li>\r\n            <li class=\"nav-item active\">\r\n              <a class=\"nav-link\" href=\"./orden.jsp\">\r\n                <i class=\"material-icons\">image_search</i>\r\n                <p>".getBytes("Cp1252");
+      "</p>\r\n              </a>\r\n            </li>\r\n            <li class=\"nav-item \">\r\n              <a class=\"nav-link\" href=\"./obra.jsp\">\r\n                <i class=\"material-icons\">photo_size_select_actual</i>\r\n                <p>".getBytes("Cp1252");
       text[10] = 
-      "</p>\r\n              </a>\r\n            </li>\r\n            <li class=\"nav-item \">\r\n              <a class=\"nav-link\" href=\"./pago.jsp\">\r\n                <i class=\"material-icons\">monetization_on</i>\r\n                <p>".getBytes("Cp1252");
+      "</p>\r\n              </a>\r\n            </li>\r\n            <li class=\"nav-item active\">\r\n              <a class=\"nav-link\" href=\"./orden.jsp\">\r\n                <i class=\"material-icons\">image_search</i>\r\n                <p>".getBytes("Cp1252");
       text[11] = 
-      "</p>\r\n              </a>\r\n            </li>\r\n            <li class=\"nav-item \">\r\n              <a class=\"nav-link\" href=\"./propietario.jsp\">\r\n                <i class=\"material-icons\">person</i>\r\n                <p>".getBytes("Cp1252");
+      "</p>\r\n              </a>\r\n            </li>\r\n            <li class=\"nav-item \">\r\n              <a class=\"nav-link\" href=\"./pago.jsp\">\r\n                <i class=\"material-icons\">monetization_on</i>\r\n                <p>".getBytes("Cp1252");
       text[12] = 
-      "</p>\r\n              </a>\r\n            </li>\r\n            <li class=\"nav-item \">\r\n              <a class=\"nav-link\" href=\"./registroExposicion.jsp\">\r\n                <i class=\"material-icons\">view_carousel</i>\r\n                <p>".getBytes("Cp1252");
+      "</p>\r\n              </a>\r\n            </li>\r\n            <li class=\"nav-item \">\r\n              <a class=\"nav-link\" href=\"./propietario.jsp\">\r\n                <i class=\"material-icons\">person</i>\r\n                <p>".getBytes("Cp1252");
       text[13] = 
-      "</p>\r\n              </a>\r\n            </li>\r\n            <li class=\"nav-item \">\r\n              <a class=\"nav-link\" href=\"./registroObra.jsp\">\r\n                <i class=\"material-icons\">vertical_split</i>\r\n                <p>".getBytes("Cp1252");
+      "</p>\r\n              </a>\r\n            </li>\r\n            <li class=\"nav-item \">\r\n              <a class=\"nav-link\" href=\"./registroExposicion.jsp\">\r\n                <i class=\"material-icons\">view_carousel</i>\r\n                <p>".getBytes("Cp1252");
       text[14] = 
       "</p>\r\n              </a>\r\n            </li>\r\n            <li class=\"nav-item \">\r\n              <a class=\"nav-link\" href=\"./salon.jsp\">\r\n                <i class=\"material-icons\">store</i>\r\n                <p>".getBytes("Cp1252");
       text[15] = 
@@ -550,13 +550,13 @@ public class _orden extends com.orionserver.http.OrionHttpJspPage {
       text[17] = 
       "\r\n                    <div class=\"row\">\r\n                      <div class=\"col-md-6\">\r\n                        <div class=\"form-group\">\r\n                          <label class=\"bmd-label-floating\">ID</label>\r\n                          <!--<input type=\"text\" class=\"form-control\">-->\r\n                          ".getBytes("Cp1252");
       text[18] = 
-      "\r\n                        </div>\r\n                      </div>\r\n                      <div class=\"col-md-6\">\r\n                        <div class=\"form-group\">\r\n                          <label class=\"bmd-label-floating\">Comprador</label>\r\n                          <!--<input type=\"text\" class=\"form-control\">-->\r\n                          ".getBytes("Cp1252");
+      "\r\n                        </div>\r\n                      </div>\r\n                      <div class=\"col-md-6\">\r\n                        <div class=\"form-group\">\r\n                          <label class=\"bmd-label-floating\">Pago</label>\r\n                          <!--<input type=\"text\" class=\"form-control\">-->\r\n                          ".getBytes("Cp1252");
       text[19] = 
-      "\r\n                        </div>\r\n                      </div>\r\n                      <div class=\"col-md-12\">\r\n                        <div class=\"form-group\">\r\n                          <label class=\"bmd-label-floating\">Envio</label>\r\n                          <!--<input type=\"email\" class=\"form-control\">-->\r\n                          ".getBytes("Cp1252");
+      "\r\n                        </div>\r\n                      </div>\r\n                      <div class=\"col-md-12\">\r\n                        <div class=\"form-group\">\r\n                          <label class=\"bmd-label-floating\">Obra</label>\r\n                          <!--<input type=\"email\" class=\"form-control\">-->\r\n                          ".getBytes("Cp1252");
       text[20] = 
-      "\r\n                        </div>\r\n                      </div>\r\n                    </div>\r\n                    <div class=\"row\">\r\n                      <div class=\"col-md-6\">\r\n                        <div class=\"form-group\">\r\n                          <label class=\"bmd-label-floating\">Pago</label>\r\n                          <!--<input type=\"text\" class=\"form-control\">-->\r\n                          ".getBytes("Cp1252");
+      "\r\n                        </div>\r\n                      </div>\r\n                    </div>\r\n                    <div class=\"row\">\r\n                      <div class=\"col-md-6\">\r\n                        <div class=\"form-group\">\r\n                          <label class=\"bmd-label-floating\">Comprador</label>\r\n                          <!--<input type=\"text\" class=\"form-control\">-->\r\n                          ".getBytes("Cp1252");
       text[21] = 
-      "\r\n                        </div>\r\n                      </div>\r\n                      <div class=\"col-md-6\">\r\n                        <div class=\"form-group\">\r\n                          <label class=\"bmd-label-floating\">Registro Obra</label>\r\n                          <!--<input type=\"text\" class=\"form-control\">-->\r\n                          ".getBytes("Cp1252");
+      "\r\n                        </div>\r\n                      </div>\r\n                      <div class=\"col-md-6\">\r\n                        <div class=\"form-group\">\r\n                          <label class=\"bmd-label-floating\">Envio</label>\r\n                          <!--<input type=\"text\" class=\"form-control\">-->\r\n                          ".getBytes("Cp1252");
       text[22] = 
       "\r\n                        </div>\r\n                      </div>\r\n                    </div>\r\n                    <div class=\"row\">\r\n                      <div class=\"col-md-6\">\r\n                        ".getBytes("Cp1252");
       text[23] = 

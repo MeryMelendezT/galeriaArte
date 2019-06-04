@@ -25,11 +25,17 @@
           Galeria de arte
         </a>
       </div>
-      <html:form action="/navbar">
+            <html:form action="/navbar">
         <div class="sidebar-wrapper">
-          <ul class="nav">
-            <li class="nav-item ">
+          <ul class="nav">  
+            <li class="nav-item">
               <a class="nav-link" href="./dashboard.jsp">
+                <i class="material-icons">vertical_split</i>
+                <p><html:submit property="boton" styleClass="btn btn-default btn-link" value="Dashboard" /></p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./artista.jsp">
                 <i class="material-icons">palette</i>
                 <html:submit property="boton" styleClass="btn btn-default btn-link" value="Artista" />
               </a>
@@ -92,12 +98,6 @@
               <a class="nav-link" href="./registroExposicion.jsp">
                 <i class="material-icons">view_carousel</i>
                 <p><html:submit property="boton" styleClass="btn btn-default btn-link" value="Registro Exposición" /></p>
-              </a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link" href="./registroObra.jsp">
-                <i class="material-icons">vertical_split</i>
-                <p><html:submit property="boton" styleClass="btn btn-default btn-link" value="Registro Obra" /></p>
               </a>
             </li>
             <li class="nav-item ">
@@ -199,32 +199,32 @@
                       </div>
                       <div class="col-md-6">
                         <div class="form-group">
-                          <label class="bmd-label-floating">Comprador</label>
+                          <label class="bmd-label-floating">Pago</label>
                           <!--<input type="text" class="form-control">-->
-                          <html:text property="comprador_id" styleClass="form-control" />
+                          <html:text property="pago_id" styleClass="form-control" />
                         </div>
                       </div>
                       <div class="col-md-12">
                         <div class="form-group">
-                          <label class="bmd-label-floating">Envio</label>
+                          <label class="bmd-label-floating">Obra</label>
                           <!--<input type="email" class="form-control">-->
-                          <html:text property="envio_id" styleClass="form-control" />
+                          <html:text property="obra_id" styleClass="form-control" />
                         </div>
                       </div>
                     </div>
                     <div class="row">
                       <div class="col-md-6">
                         <div class="form-group">
-                          <label class="bmd-label-floating">Pago</label>
+                          <label class="bmd-label-floating">Comprador</label>
                           <!--<input type="text" class="form-control">-->
-                          <html:text property="envio_id" styleClass="form-control" />
+                          <html:text property="comprador_id" styleClass="form-control" />
                         </div>
                       </div>
                       <div class="col-md-6">
                         <div class="form-group">
-                          <label class="bmd-label-floating">Registro Obra</label>
+                          <label class="bmd-label-floating">Envio</label>
                           <!--<input type="text" class="form-control">-->
-                          <html:text property="registroObra_id" styleClass="form-control" />
+                          <html:text property="envio_id" styleClass="form-control" />
                         </div>
                       </div>
                     </div>

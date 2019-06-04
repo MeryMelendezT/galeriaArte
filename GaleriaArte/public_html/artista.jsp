@@ -30,13 +30,13 @@
       <html:form action="/navbar">
         <div class="sidebar-wrapper">
           <ul class="nav">  
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" href="./dashboard.jsp">
                 <i class="material-icons">vertical_split</i>
                 <p><html:submit property="boton" styleClass="btn btn-default btn-link" value="Dashboard" /></p>
               </a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
               <a class="nav-link" href="./artista.jsp">
                 <i class="material-icons">palette</i>
                 <html:submit property="boton" styleClass="btn btn-default btn-link" value="Artista" />
@@ -145,61 +145,177 @@
       </nav>
       <!-- End Navbar -->
       <div class="content">
-            <div class="section" id="carousel">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 mr-auto ml-auto">
-            <!-- Carousel Card -->
-            <div class="card card-raised card-carousel">
-              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="3000">
-                <ol class="carousel-indicators">
-                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img class="d-block w-100" src="./assets/img/bg2.jpg" alt="First slide">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h4>
-                        <i class="material-icons">location_on</i> 
-                      </h4>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="row">
+                <div class="col-lg-12 col-md-12">
+                  <div class="card">
+                    <div class="card-header card-header-tabs card-header-primary">
+                      <div class="nav-tabs-navigation">
+                        <div class="nav-tabs-wrapper">
+                        <ul class="nav nav-tabs" data-tabs="tabs">
+                          <li class="nav-item">
+                            <a class="nav-link active" href="#altas" data-toggle="tab">
+                              <i class="material-icons">playlist_add</i> Altas
+                              <div class="ripple-container"></div>
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#bajas" data-toggle="tab">
+                              <i class="material-icons">assignment</i> Listado
+                              <div class="ripple-container"></div>
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#modificaciones" data-toggle="tab">
+                              <i class="material-icons">loop</i> Modificaciones
+                              <div class="ripple-container"></div>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
                     </div>
                   </div>
-                  <div class="carousel-item">
-                    <img class="d-block w-100" src="./assets/img/bg3.jpg" alt="Second slide">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h4>
-                        <i class="material-icons">location_on</i> 
-                      </h4>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block w-100" src="./assets/img/bg.jpg" alt="Third slide">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h4>
-                        <i class="material-icons">location_on</i>
-                      </h4>
+                  <div class="card-body">
+                    <div class="tab-content">
+                      <div class="tab-pane active" id="altas">
+                        <table class="table">
+                          <tbody>
+                            <tr>
+                              <div class="content">
+                                <div class="container-fluid">
+                                  <div class="row">
+                                    <div class="col-md-12">
+                                      <div class="card">
+                                        <div class="card-body">
+                                          <html:form action="/altasArtista">
+                                            <div class="row">
+                                              <div class="col-md-6">
+                                                <div class="form-group">
+                                                  <label class="bmd-label-floating">ID</label>
+                                                  <!--<input type="text" class="form-control">-->
+                                                  <html:text property="id" styleClass="form-control" />
+                                                </div>
+                                              </div>
+                                              <div class="col-md-6">
+                                                <div class="form-group">
+                                                  <label class="bmd-label-floating">Carnet</label>
+                                                  <!--<input type="text" class="form-control">-->
+                                                  <html:text property="carnet" styleClass="form-control" />
+                                                </div>
+                                              </div>
+                                              <div class="col-md-6">
+                                                <div class="form-group">
+                                                  <label class="bmd-label-floating">Nombre</label>
+                                                  <!--<input type="email" class="form-control">-->
+                                                  <html:text property="nombre" styleClass="form-control" />
+                                                </div>
+                                              </div>
+                                              <div class="col-md-6">
+                                                <div class="form-group">
+                                                  <label class="bmd-label-floating">Apellido</label>
+                                                  <!--<input type="email" class="form-control">-->
+                                                  <html:text property="apellido" styleClass="form-control" />
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div class="row">
+                                              <div class="col-md-6">
+                                                <div class="form-group">
+                                                  <label class="bmd-label-floating">Correo</label>
+                                                  <!--<input type="text" class="form-control">-->
+                                                  <html:text property="correo" styleClass="form-control" />
+                                                </div>
+                                              </div>
+                                              <div class="col-md-6">
+                                                <div class="form-group">
+                                                  <label class="bmd-label-floating">Contraseña</label>
+                                                  <!--<input type="text" class="form-control">-->
+                                                  <html:password property="clave" styleClass="form-control" />
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div class="row">
+                                              <div class="col-md-12">
+                                                <div class="form-group">
+                                                  <label class="bmd-label-floating">Telefono</label>
+                                                  <!--<input type="text" class="form-control">-->
+                                                  <html:text property="telefono" styleClass="form-control" />
+                                                </div>
+                                              </div>
+                                              <div class="col-md-12">
+                                                <!--<button type="submit" class="btn btn-primary pull-right">Registrar</button>-->
+                                                <html:submit styleClass="btn btn-primary pull-right" value="Registrar" />
+                                              </div>
+                                            </div>
+                                          </html:form>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </tr>            
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="tab-pane" id="bajas">
+                        <div class="col-md-12">
+                          <div class="card card-plain">
+                            <div class="card-body">
+                              <div class="table-responsive">
+                                <table class="table table-hover">
+                                  <thead class="">
+                                    <th>ID</th>
+                                    <th>Carnet</th>
+                                    <th>Nombre</th>
+                                    <th>Apellido</th>
+                                    <th>Correo</th>
+                                    <th>Telefono</th>
+                                    <th></th>
+                                  </thead>
+                                  <tbody>
+                                    <logic:iterate id="tabla" indexId="index" name="listados" property="tabla">
+                                      <tr>
+                                        <td><bean:write name="tabla" property="id" /></td>
+                                        <td><bean:write name="tabla" property="carnet" /></td>
+                                        <td><bean:write name="tabla" property="nombre" /></td>
+                                        <td><bean:write name="tabla" property="apellido" /></td>
+                                        <td><bean:write name="tabla" property="correo" /></td>
+                                        <td><bean:write name="tabla" property="telefono" /></td>
+                                        <td class="td-actions text-right">
+                                            <html:submit property="cod" styleClass="btn btn-primary btn-link btn-sm">  
+                                              <bean:write name="tabla" property="id" />
+                                            </html:submit>
+                                            <!--<button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-link btn-sm">
+                                            
+                                            </button>
+                                            <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-link btn-sm">
+                                              <i class="material-icons">close</i>
+                                            </button>-->
+                                        </td>
+                                      </tr>
+                                    </logic:iterate>
+                                  </tbody>
+                                </table>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>  
+  <div class="tab-pane" id="modificaciones">
+    
                     </div>
                   </div>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                  <i class="material-icons">keyboard_arrow_left</i>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                  <i class="material-icons">keyboard_arrow_right</i>
-                  <span class="sr-only">Next</span>
-                </a>
               </div>
             </div>
-            <!-- End Carousel Card -->
           </div>
         </div>
       </div>
-    </div>
-        </div>
       </div>
+    </div>
     </div>
   </div>
  <!--   Core JS Files   -->
