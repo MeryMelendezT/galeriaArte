@@ -13578,3 +13578,5 @@ javax.servlet.jsp.JspException: No getter method for property nombre of bean tab
 4/06/19 4:36 GaleriaArte-GaleriaArte-webapp: 9.0.3.0.0 Started
 4/06/19 4:38 Started
 4/06/19 4:38 GaleriaArte-GaleriaArte-webapp: JDevOJSP: init
+4/06/19 4:38 GaleriaArte-GaleriaArte-webapp: action: init
+4/06/19 4:38 GaleriaArte-GaleriaArte-webapp: 9.0.3.0.0 Started
