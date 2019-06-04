@@ -11,6 +11,11 @@ public class ClassObra
   String estilo;
   String precio;
   String imagen;
+  String nombreArtista;
+  String nombrePropietario;
+  String apellidoArtista;
+  String apellidoPropietario;
+  String nombreCategoria;
 
   public ClassObra()
   {
@@ -104,5 +109,55 @@ public class ClassObra
   public void setNumeroRegistro(String newNumeroRegistro)
   {
     numeroRegistro = newNumeroRegistro;
+  }
+
+  public String getNombreArtista()
+  {
+    return nombreArtista;
+  }
+
+  public void setNombreArtista(String newNombreArtista)
+  {
+    nombreArtista = newNombreArtista;
+  }
+
+  public String getNombrePropietario()
+  {
+    return nombrePropietario;
+  }
+
+  public void setNombrePropietario(String newNombrePropietario)
+  {
+    nombrePropietario = newNombrePropietario;
+  }
+
+  public String getApellidoArtista()
+  {
+    return apellidoArtista;
+  }
+
+  public void setApellidoArtista(String newApellidoArtista)
+  {
+    apellidoArtista = newApellidoArtista;
+  }
+
+  public String getApellidoPropietario()
+  {
+    return apellidoPropietario;
+  }
+
+  public void setApellidoPropietario(String newApellidoPropietario)
+  {
+    apellidoPropietario = newApellidoPropietario;
+  }
+
+  public String getNombreCategoria()
+  {
+    return nombreCategoria;
+  }
+
+  public void setNombreCategoria(String newNombreCategoria)
+  {
+    nombreCategoria = newNombreCategoria;
   }
 }

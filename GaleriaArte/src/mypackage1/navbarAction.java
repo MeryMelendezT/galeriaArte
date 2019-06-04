@@ -231,16 +231,18 @@ public class navbarAction extends Action
       ResultSet rsConsulta = null;
       try{
         cn = conn.conexion;
-        String cadena = "select * from my_obra order by 1";
+        String cadena = "select a.id, b.nombre as nombreArtista, b.apellido as apellidoArtista, c.nombre as nombrePropietario, c.apellido as apellidoPropietario, d.nombre as nombreCategoria, a.numeroRegistro, a.titulo, a.estilo, a.precio, a.imagen from my_obra a, my_artista b, my_propietario c, my_categoria d where a.artista_id=b.id and a.propietario_id=c.id and a.categoria_id=d.id";
         rsConsulta = conn.getData(cadena);
         System.out.println(cadena);
         ArrayList items = new ArrayList();
         while(rsConsulta.next()){
           ClassObra item = new ClassObra();
           item.setId(rsConsulta.getString("id"));
-          item.setArtista_id(rsConsulta.getString("artista_id"));
-          item.setPropietario_id(rsConsulta.getString("propietario_id"));
-          item.setCategoria_id(rsConsulta.getString("categoria_id"));
+          item.setNombreArtista(rsConsulta.getString("nombreArtista"));
+          item.setApellidoArtista(rsConsulta.getString("apellidoArtista"));
+          item.setNombrePropietario(rsConsulta.getString("nombrePropietario"));
+          item.setApellidoPropietario(rsConsulta.getString("apellidoPropietario"));
+          item.setNombreCategoria(rsConsulta.getString("nombreCategoria"));
           item.setNumeroRegistro(rsConsulta.getString("numeroRegistro"));
           item.setTitulo(rsConsulta.getString("titulo"));
           item.setEstilo(rsConsulta.getString("estilo"));
@@ -261,7 +263,36 @@ public class navbarAction extends Action
       }
       //return mapping.findForward("obra");
     }if(boton.equals("Orden")){
-      return mapping.findForward("orden");
+      Connection cn = null;
+      ConnectDB conn = new ConnectDB();
+      ResultSet rsConsulta = null;
+      try{
+        cn = conn.conexion;
+        String cadena = "select * from my_orden order by 1";
+        rsConsulta = conn.getData(cadena);
+        System.out.println(cadena);
+        ArrayList items = new ArrayList();
+        while(rsConsulta.next()){
+          ClassOrden item = new ClassOrden();
+          item.setId(rsConsulta.getString("id"));
+          item.setPago_id(rsConsulta.getString("pago_id"));
+          item.setObra_id(rsConsulta.getString("obra_id"));
+          item.setComprador_id(rsConsulta.getString("comprador_id"));
+          item.setEnvio_id(rsConsulta.getString("envio_id"));
+          items.add(item);
+          System.out.println("Paso");
+        }
+        listadoForm ListadoForm = new listadoForm();
+        ListadoForm.setTabla(items);
+        request.getSession().setAttribute("listados",ListadoForm);
+        return mapping.findForward("orden");
+      }catch(Exception e){
+        e.printStackTrace();
+        return (mapping.findForward("nook"));
+      }finally{
+        conn.closeConnection();
+      }
+      //return mapping.findForward("orden");
     }if(boton.equals("Pago")){
       return mapping.findForward("pago");
     }if(boton.equals("Propietario")){
@@ -298,8 +329,6 @@ public class navbarAction extends Action
       //return mapping.findForward("propietario");
     }if(boton.equals("Registro Exposición")){
       return mapping.findForward("registroExposicion");
-    }if(boton.equals("Registro Obra")){
-      return mapping.findForward("registroObra");
     }if(boton.equals("Salón")){
       Connection cn = null;
       ConnectDB conn = new ConnectDB();

@@ -575,7 +575,7 @@ public class _obra extends oracle.jsp.runtime.HttpJsp {
               org.apache.struts.taglib.bean.WriteTag __jsp_taghandler_28=(org.apache.struts.taglib.bean.WriteTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.bean.WriteTag.class,"org.apache.struts.taglib.bean.WriteTag name property");
               __jsp_taghandler_28.setParent(__jsp_taghandler_26);
               __jsp_taghandler_28.setName("tabla");
-              __jsp_taghandler_28.setProperty("artista_id");
+              __jsp_taghandler_28.setProperty("apellidoArtista");
               __jsp_tag_starteval=__jsp_taghandler_28.doStartTag();
               if (OracleJspRuntime.checkStartTagEval(__jsp_tag_starteval))
               {
@@ -588,11 +588,11 @@ public class _obra extends oracle.jsp.runtime.HttpJsp {
             }
             /*@lineinfo:generated-code*/
             out.write(__jsp_StaticText.text[33]);
-            /*@lineinfo:translated-code*//*@lineinfo:306^45*/            {
+            /*@lineinfo:translated-code*//*@lineinfo:305^101*/            {
               org.apache.struts.taglib.bean.WriteTag __jsp_taghandler_29=(org.apache.struts.taglib.bean.WriteTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.bean.WriteTag.class,"org.apache.struts.taglib.bean.WriteTag name property");
               __jsp_taghandler_29.setParent(__jsp_taghandler_26);
               __jsp_taghandler_29.setName("tabla");
-              __jsp_taghandler_29.setProperty("propietario_id");
+              __jsp_taghandler_29.setProperty("nombreArtista");
               __jsp_tag_starteval=__jsp_taghandler_29.doStartTag();
               if (OracleJspRuntime.checkStartTagEval(__jsp_tag_starteval))
               {
@@ -605,11 +605,11 @@ public class _obra extends oracle.jsp.runtime.HttpJsp {
             }
             /*@lineinfo:generated-code*/
             out.write(__jsp_StaticText.text[34]);
-            /*@lineinfo:translated-code*//*@lineinfo:307^45*/            {
+            /*@lineinfo:translated-code*//*@lineinfo:306^45*/            {
               org.apache.struts.taglib.bean.WriteTag __jsp_taghandler_30=(org.apache.struts.taglib.bean.WriteTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.bean.WriteTag.class,"org.apache.struts.taglib.bean.WriteTag name property");
               __jsp_taghandler_30.setParent(__jsp_taghandler_26);
               __jsp_taghandler_30.setName("tabla");
-              __jsp_taghandler_30.setProperty("categoria_id");
+              __jsp_taghandler_30.setProperty("apellidoPropietario");
               __jsp_tag_starteval=__jsp_taghandler_30.doStartTag();
               if (OracleJspRuntime.checkStartTagEval(__jsp_tag_starteval))
               {
@@ -622,11 +622,11 @@ public class _obra extends oracle.jsp.runtime.HttpJsp {
             }
             /*@lineinfo:generated-code*/
             out.write(__jsp_StaticText.text[35]);
-            /*@lineinfo:translated-code*//*@lineinfo:308^45*/            {
+            /*@lineinfo:translated-code*//*@lineinfo:306^105*/            {
               org.apache.struts.taglib.bean.WriteTag __jsp_taghandler_31=(org.apache.struts.taglib.bean.WriteTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.bean.WriteTag.class,"org.apache.struts.taglib.bean.WriteTag name property");
               __jsp_taghandler_31.setParent(__jsp_taghandler_26);
               __jsp_taghandler_31.setName("tabla");
-              __jsp_taghandler_31.setProperty("numeroRegistro");
+              __jsp_taghandler_31.setProperty("nombrePropietario");
               __jsp_tag_starteval=__jsp_taghandler_31.doStartTag();
               if (OracleJspRuntime.checkStartTagEval(__jsp_tag_starteval))
               {
@@ -639,11 +639,11 @@ public class _obra extends oracle.jsp.runtime.HttpJsp {
             }
             /*@lineinfo:generated-code*/
             out.write(__jsp_StaticText.text[36]);
-            /*@lineinfo:translated-code*//*@lineinfo:309^45*/            {
+            /*@lineinfo:translated-code*//*@lineinfo:307^45*/            {
               org.apache.struts.taglib.bean.WriteTag __jsp_taghandler_32=(org.apache.struts.taglib.bean.WriteTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.bean.WriteTag.class,"org.apache.struts.taglib.bean.WriteTag name property");
               __jsp_taghandler_32.setParent(__jsp_taghandler_26);
               __jsp_taghandler_32.setName("tabla");
-              __jsp_taghandler_32.setProperty("titulo");
+              __jsp_taghandler_32.setProperty("nombreCategoria");
               __jsp_tag_starteval=__jsp_taghandler_32.doStartTag();
               if (OracleJspRuntime.checkStartTagEval(__jsp_tag_starteval))
               {
@@ -656,11 +656,11 @@ public class _obra extends oracle.jsp.runtime.HttpJsp {
             }
             /*@lineinfo:generated-code*/
             out.write(__jsp_StaticText.text[37]);
-            /*@lineinfo:translated-code*//*@lineinfo:310^45*/            {
+            /*@lineinfo:translated-code*//*@lineinfo:308^45*/            {
               org.apache.struts.taglib.bean.WriteTag __jsp_taghandler_33=(org.apache.struts.taglib.bean.WriteTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.bean.WriteTag.class,"org.apache.struts.taglib.bean.WriteTag name property");
               __jsp_taghandler_33.setParent(__jsp_taghandler_26);
               __jsp_taghandler_33.setName("tabla");
-              __jsp_taghandler_33.setProperty("estilo");
+              __jsp_taghandler_33.setProperty("numeroRegistro");
               __jsp_tag_starteval=__jsp_taghandler_33.doStartTag();
               if (OracleJspRuntime.checkStartTagEval(__jsp_tag_starteval))
               {
@@ -673,11 +673,11 @@ public class _obra extends oracle.jsp.runtime.HttpJsp {
             }
             /*@lineinfo:generated-code*/
             out.write(__jsp_StaticText.text[38]);
-            /*@lineinfo:translated-code*//*@lineinfo:311^45*/            {
+            /*@lineinfo:translated-code*//*@lineinfo:309^45*/            {
               org.apache.struts.taglib.bean.WriteTag __jsp_taghandler_34=(org.apache.struts.taglib.bean.WriteTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.bean.WriteTag.class,"org.apache.struts.taglib.bean.WriteTag name property");
               __jsp_taghandler_34.setParent(__jsp_taghandler_26);
               __jsp_taghandler_34.setName("tabla");
-              __jsp_taghandler_34.setProperty("precio");
+              __jsp_taghandler_34.setProperty("titulo");
               __jsp_tag_starteval=__jsp_taghandler_34.doStartTag();
               if (OracleJspRuntime.checkStartTagEval(__jsp_tag_starteval))
               {
@@ -690,11 +690,11 @@ public class _obra extends oracle.jsp.runtime.HttpJsp {
             }
             /*@lineinfo:generated-code*/
             out.write(__jsp_StaticText.text[39]);
-            /*@lineinfo:translated-code*//*@lineinfo:312^45*/            {
+            /*@lineinfo:translated-code*//*@lineinfo:310^45*/            {
               org.apache.struts.taglib.bean.WriteTag __jsp_taghandler_35=(org.apache.struts.taglib.bean.WriteTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.bean.WriteTag.class,"org.apache.struts.taglib.bean.WriteTag name property");
               __jsp_taghandler_35.setParent(__jsp_taghandler_26);
               __jsp_taghandler_35.setName("tabla");
-              __jsp_taghandler_35.setProperty("imagen");
+              __jsp_taghandler_35.setProperty("estilo");
               __jsp_tag_starteval=__jsp_taghandler_35.doStartTag();
               if (OracleJspRuntime.checkStartTagEval(__jsp_tag_starteval))
               {
@@ -707,6 +707,40 @@ public class _obra extends oracle.jsp.runtime.HttpJsp {
             }
             /*@lineinfo:generated-code*/
             out.write(__jsp_StaticText.text[40]);
+            /*@lineinfo:translated-code*//*@lineinfo:311^45*/            {
+              org.apache.struts.taglib.bean.WriteTag __jsp_taghandler_36=(org.apache.struts.taglib.bean.WriteTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.bean.WriteTag.class,"org.apache.struts.taglib.bean.WriteTag name property");
+              __jsp_taghandler_36.setParent(__jsp_taghandler_26);
+              __jsp_taghandler_36.setName("tabla");
+              __jsp_taghandler_36.setProperty("precio");
+              __jsp_tag_starteval=__jsp_taghandler_36.doStartTag();
+              if (OracleJspRuntime.checkStartTagEval(__jsp_tag_starteval))
+              {
+                do {
+                } while (__jsp_taghandler_36.doAfterBody()==javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN);
+              }
+              if (__jsp_taghandler_36.doEndTag()==javax.servlet.jsp.tagext.Tag.SKIP_PAGE)
+                return;
+              OracleJspRuntime.releaseTagHandler(pageContext,__jsp_taghandler_36);
+            }
+            /*@lineinfo:generated-code*/
+            out.write(__jsp_StaticText.text[41]);
+            /*@lineinfo:translated-code*//*@lineinfo:312^45*/            {
+              org.apache.struts.taglib.bean.WriteTag __jsp_taghandler_37=(org.apache.struts.taglib.bean.WriteTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.bean.WriteTag.class,"org.apache.struts.taglib.bean.WriteTag name property");
+              __jsp_taghandler_37.setParent(__jsp_taghandler_26);
+              __jsp_taghandler_37.setName("tabla");
+              __jsp_taghandler_37.setProperty("imagen");
+              __jsp_tag_starteval=__jsp_taghandler_37.doStartTag();
+              if (OracleJspRuntime.checkStartTagEval(__jsp_tag_starteval))
+              {
+                do {
+                } while (__jsp_taghandler_37.doAfterBody()==javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN);
+              }
+              if (__jsp_taghandler_37.doEndTag()==javax.servlet.jsp.tagext.Tag.SKIP_PAGE)
+                return;
+              OracleJspRuntime.releaseTagHandler(pageContext,__jsp_taghandler_37);
+            }
+            /*@lineinfo:generated-code*/
+            out.write(__jsp_StaticText.text[42]);
           /*@lineinfo:translated-code*//*@lineinfo:312^90*/          } while (__jsp_taghandler_26.doAfterBody()==javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN);
           out=OracleJspRuntime.popBodyIfNeeded(pageContext,out);
         }
@@ -715,7 +749,7 @@ public class _obra extends oracle.jsp.runtime.HttpJsp {
         OracleJspRuntime.releaseTagHandler(pageContext,__jsp_taghandler_26);
       }
       /*@lineinfo:generated-code*/
-      out.write(__jsp_StaticText.text[41]);
+      out.write(__jsp_StaticText.text[43]);
 
 
     }
@@ -734,7 +768,7 @@ public class _obra extends oracle.jsp.runtime.HttpJsp {
 
   }
   private static class __jsp_StaticText {
-    private static final char text[][]=new char[42][];
+    private static final char text[][]=new char[44][];
     static {
       try {
       text[0] = 
@@ -804,11 +838,11 @@ public class _obra extends oracle.jsp.runtime.HttpJsp {
       text[32] = 
       "</td>\n                                        <td>".toCharArray();
       text[33] = 
-      "</td>\n                                        <td>".toCharArray();
+      ", ".toCharArray();
       text[34] = 
       "</td>\n                                        <td>".toCharArray();
       text[35] = 
-      "</td>\n                                        <td>".toCharArray();
+      ", ".toCharArray();
       text[36] = 
       "</td>\n                                        <td>".toCharArray();
       text[37] = 
@@ -818,8 +852,12 @@ public class _obra extends oracle.jsp.runtime.HttpJsp {
       text[39] = 
       "</td>\n                                        <td>".toCharArray();
       text[40] = 
-      "</td>\n                                        <td class=\"td-actions text-right\">\n                                            <button type=\"button\" rel=\"tooltip\" title=\"Edit Task\" class=\"btn btn-primary btn-link btn-sm\">\n                                              <i class=\"material-icons\">edit</i>\n                                            </button>\n                                            <button type=\"button\" rel=\"tooltip\" title=\"Remove\" class=\"btn btn-danger btn-link btn-sm\">\n                                              <i class=\"material-icons\">close</i>\n                                            </button>\n                                        </td>\n                                      </tr>\n                                    ".toCharArray();
+      "</td>\n                                        <td>".toCharArray();
       text[41] = 
+      "</td>\n                                        <td>".toCharArray();
+      text[42] = 
+      "</td>\n                                        <td class=\"td-actions text-right\">\n                                            <button type=\"button\" rel=\"tooltip\" title=\"Edit Task\" class=\"btn btn-primary btn-link btn-sm\">\n                                              <i class=\"material-icons\">edit</i>\n                                            </button>\n                                            <button type=\"button\" rel=\"tooltip\" title=\"Remove\" class=\"btn btn-danger btn-link btn-sm\">\n                                              <i class=\"material-icons\">close</i>\n                                            </button>\n                                        </td>\n                                      </tr>\n                                    ".toCharArray();
+      text[43] = 
       "\n                                  </tbody>\n                                </table>\n                              </div>\n                            </div>\n                          </div>\n                        </div>\n                      </div>  \n\n  <div class=\"tab-pane \" id=\"modificaciones\">\n    <table class=\"table\">\n      <tbody>\n        <tr>\n           <td>\n             </td>\n               <div class=\"content\">\n        <div class=\"container-fluid\">\n          <div class=\"row\">\n            <div class=\"col-md-12\">\n              <div class=\"card\">\n                <div class=\"card-body\">\n                  <form>\n                    <div class=\"row\">\n                      <div class=\"col-md-6\">\n                        <div class=\"form-group\">\n                          <label class=\"bmd-label-floating\">Nombre</label>\n                          <input type=\"text\" class=\"form-control\">\n                        </div>\n                      </div>\n                      <div class=\"col-md-6\">\n                        <div class=\"form-group\">\n                          <label class=\"bmd-label-floating\">Apellido</label>\n                          <input type=\"text\" class=\"form-control\">\n                        </div>\n                      </div>\n                      <div class=\"col-md-12\">\n                        <div class=\"form-group\">\n                          <label class=\"bmd-label-floating\">Direccion</label>\n                          <input type=\"email\" class=\"form-control\">\n                        </div>\n                      </div>\n                    </div>\n                    <div class=\"row\">\n                      <div class=\"col-md-6\">\n                        <div class=\"form-group\">\n                          <label class=\"bmd-label-floating\">Correo</label>\n                          <input type=\"text\" class=\"form-control\">\n                        </div>\n                      </div>\n                      <div class=\"col-md-6\">\n                        <div class=\"form-group\">\n                          <label class=\"bmd-label-floating\">Celular</label>\n                          <input type=\"text\" class=\"form-control\">\n                        </div>\n                      </div>\n                    </div>\n                    <div class=\"row\">\n                      <div class=\"col-md-6\">\n                        <div class=\"form-group\">\n                          <label class=\"bmd-label-floating\">Ciudad</label>\n                          <input type=\"text\" class=\"form-control\">\n                        </div>\n                      </div>\n                      <div class=\"col-md-6\">\n                        <div class=\"form-group\">\n                          <label class=\"bmd-label-floating\">CI</label>\n                          <input type=\"text\" class=\"form-control\">\n                        </div>\n                      </div>\n                    </div>\n                    <button type=\"submit\" class=\"btn btn-success pull-right\">Registrar</button>\n                  </form>\n                </div>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n      </tr>            \n    </tbody>\n                </table>\n                    </div>\n                  </div>\n                </div>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n      </div>\n    </div>\n    </div>\n  </div>\n <!--   Core JS Files   -->\n  <script src=\"assets1/js/core/jquery.min.js\"></script>\n  <script src=\"assets1/js/core/popper.min.js\"></script>\n  <script src=\"assets1/js/core/bootstrap-material-design.min.js\"></script>\n  <script src=\"assets1/js/plugins/perfect-scrollbar.jquery.min.js\"></script>\n  <!-- Plugin for the momentJs  -->\n  <script src=\"assets1/js/plugins/moment.min.js\"></script>\n  <!--  Plugin for Sweet Alert -->\n  <script src=\"assets1/js/plugins/sweetalert2.js\"></script>\n  <!-- Forms Validations Plugin -->\n  <script src=\"assets1/js/plugins/jquery.validate.min.js\"></script>\n  <!-- Plugin for the Wizard, full documentation here: https://github.com/VinceG/twitter-bootstrap-wizard -->\n  <script src=\"assets1/js/plugins/jquery.bootstrap-wizard.js\"></script>\n  <!--  Plugin for Select, full documentation here: http://silviomoreto.github.io/bootstrap-select -->\n  <script src=\"assets1/js/plugins/bootstrap-selectpicker.js\"></script>\n  <!--  Plugin for the DateTimePicker, full documentation here: https://eonasdan.github.io/bootstrap-datetimepicker/ -->\n  <script src=\"assets1/js/plugins/bootstrap-datetimepicker.min.js\"></script>\n  <!--  DataTables.net Plugin, full documentation here: https://datatables.net/  -->\n  <script src=\"assets1/js/plugins/jquery.dataTables.min.js\"></script>\n  <!--  Plugin for Tags, full documentation here: https://github.com/bootstrap-tagsinput/bootstrap-tagsinputs  -->\n  <script src=\"assets1/js/plugins/bootstrap-tagsinput.js\"></script>\n  <!-- Plugin for Fileupload, full documentation here: http://www.jasny.net/bootstrap/javascript/#fileinput -->\n  <script src=\"assets1/js/plugins/jasny-bootstrap.min.js\"></script>\n  <!--  Full Calendar Plugin, full documentation here: https://github.com/fullcalendar/fullcalendar    -->\n  <script src=\"assets1/js/plugins/fullcalendar.min.js\"></script>\n  <!-- Vector Map plugin, full documentation here: http://jvectormap.com/documentation/ -->\n  <script src=\"assets1/js/plugins/jquery-jvectormap.js\"></script>\n  <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->\n  <script src=\"assets1/js/plugins/nouislider.min.js\"></script>\n  <!-- Include a polyfill for ES6 Promises (optional) for IE11, UC Browser and Android browser support SweetAlert -->\n  <script src=\"https://cdnjs.cloudflare.com/ajax/libs/core-js/2.4.1/core.js\"></script>\n  <!-- Library for adding dinamically elements -->\n  <script src=\"assets1/js/plugins/arrive.min.js\"></script>>\n  <!-- Chartist JS -->\n  <script src=\"assets1/js/plugins/chartist.min.js\"></script>\n  <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->\n  <script src=\"assets1/js/material-dashboard.js?v=2.1.1\" type=\"text/javascript\"></script>\n  <!-- Material Dashboard DEMO methods, don't include it in your project! -->\n  <script src=\"assets1/demo/demo.js\"></script>\n</body>\n</html>\n".toCharArray();
       }
       catch (Throwable th) {

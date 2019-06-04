@@ -302,9 +302,9 @@
                                     <logic:iterate id="tabla" indexId="index" name="listados" property="tabla">
                                       <tr>
                                         <td><bean:write name="tabla" property="id" /></td>
-                                        <td><bean:write name="tabla" property="artista_id" /></td>
-                                        <td><bean:write name="tabla" property="propietario_id" /></td>
-                                        <td><bean:write name="tabla" property="categoria_id" /></td>
+                                        <td><bean:write name="tabla" property="apellidoArtista" />, <bean:write name="tabla" property="nombreArtista" /></td>
+                                        <td><bean:write name="tabla" property="apellidoPropietario" />, <bean:write name="tabla" property="nombrePropietario" /></td>
+                                        <td><bean:write name="tabla" property="nombreCategoria" /></td>
                                         <td><bean:write name="tabla" property="numeroRegistro" /></td>
                                         <td><bean:write name="tabla" property="titulo" /></td>
                                         <td><bean:write name="tabla" property="estilo" /></td>

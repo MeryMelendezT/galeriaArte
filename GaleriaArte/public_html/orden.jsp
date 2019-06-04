@@ -1,3 +1,5 @@
+<%@ taglib uri="/WEB-INF/struts-bean.tld" prefix="bean" %>
+<%@ taglib uri="/WEB-INF/struts-logic.tld" prefix="logic" %>
 <%@ taglib uri="/WEB-INF/struts-html.tld" prefix="html" %>
 <%@ page contentType="text/html;charset=windows-1252"%>
 <html>
@@ -245,23 +247,44 @@
   </table>
 </div>
                     <div class="tab-pane" id="bajas">
-                      <table class="table">
-                        <tbody>
-                          <tr>
-                            <td>Flooded: One year later, assessing what was lost and what was found when a ravaging rain swept through metro Detroit
-                            </td>
-                            <td class="td-actions text-right">
-                              <button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-link btn-sm">
-                                <i class="material-icons">edit</i>
-                              </button>
-                              <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-link btn-sm">
-                                <i class="material-icons">close</i>
-                              </button>
-                            </td>
-                          </tr>
-                          </tbody>
-                      </table>
-                    </div>
+                        <div class="col-md-12">
+                          <div class="card card-plain">
+                            <div class="card-body">
+                              <div class="table-responsive">
+                                <table class="table table-hover">
+                                  <thead class="">
+                                    <th>ID</th>
+                                    <th>Pago</th>
+                                    <th>Obra</th>
+                                    <th>Comprador</th>
+                                    <th>Envio</th>
+                                    <th></th>
+                                  </thead>
+                                  <tbody>
+                                    <logic:iterate id="tabla" indexId="index" name="listados" property="tabla">
+                                      <tr>
+                                        <td><bean:write name="tabla" property="id" /></td>
+                                        <td><bean:write name="tabla" property="pago_id" /></td>
+                                        <td><bean:write name="tabla" property="obra_id" /></td>
+                                        <td><bean:write name="tabla" property="comprador_id" /></td>
+                                        <td><bean:write name="tabla" property="envio_id" /></td>
+                                        <td class="td-actions text-right">
+                                            <button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-link btn-sm">
+                                              <i class="material-icons">edit</i>
+                                            </button>
+                                            <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-link btn-sm">
+                                              <i class="material-icons">close</i>
+                                            </button>
+                                        </td>
+                                      </tr>
+                                    </logic:iterate>
+                                  </tbody>
+                                </table>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>  
 
   <div class="tab-pane " id="modificaciones">
     <table class="table">
