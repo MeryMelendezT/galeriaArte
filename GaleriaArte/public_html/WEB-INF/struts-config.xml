@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'windows-1252'?>
+
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.1//EN" "http://jakarta.apache.org/struts/dtds/struts-config_1_1.dtd">
+<struts-config>
+  <form-beans>
+    <form-bean name="inicioForm" type="mypackage1.inicioForm"/>
+    <form-bean name="altasSalonForm" type="mypackage1.altasSalonForm"/>
+    <form-bean name="altasArtistaForm" type="mypackage1.altasArtistaForm"/>
+    <form-bean name="altasCategoriaForm" type="mypackage1.altasCategoriaForm"/>
+    <form-bean name="altasCompradorForm" type="mypackage1.altasCompradorForm"/>
+    <form-bean name="altasPropietarioForm" type="mypackage1.altasPropietarioForm"/>
+    <form-bean name="altasPagoForm" type="mypackage1.altasPagoForm"/>
+    <form-bean name="altasEnvioForm" type="mypackage1.altasEnvioForm"/>
+    <form-bean name="altasExposicionForm" type="mypackage1.altasExposicionForm"/>
+    <form-bean name="altasObraForm" type="mypackage1.altasObraForm"/>
+    <form-bean name="navbarForm" type="mypackage1.navbarForm"/>
+    <form-bean name="listadoForm" type="mypackage1.listadoForm"/>
+    <form-bean name="altasFacturaForm" type="mypackage1.altasFacturaForm"/>
+    <form-bean name="altasOrdenForm" type="mypackage1.altasOrdenForm"/>
+  </form-beans>
+  <global-forwards>
+    <forward name="dashboard" path="/dashboard.jsp"/>
+    <forward name="inicio" path="/inicio.jsp"/>
+    <forward name="salon" path="/salon.jsp"/>
+    <forward name="categoria" path="/categoria.jsp"/>
+    <forward name="certificado" path="/certificado.jsp"/>
+    <forward name="comprador" path="/comprador.jsp"/>
+    <forward name="envio" path="/envio.jsp"/>
+    <forward name="exposicion" path="/exposicion.jsp"/>
+    <forward name="factura" path="/factura.jsp"/>
+    <forward name="obra" path="/obra.jsp"/>
+    <forward name="orden" path="/orden.jsp"/>
+    <forward name="pago" path="/pago.jsp"/>
+    <forward name="propietario" path="/propietario.jsp"/>
+    <forward name="registroExposicion" path="/registroExposicion.jsp"/>
+    <forward name="registroObra" path="/registroObra.jsp"/>
+  </global-forwards>
+  <action-mappings>
+    <action path="/inicio" type="mypackage1.inicioAction" name="inicioForm" input="/inicio.jsp" scope="request"/>
+    <action path="/altasSalon" type="mypackage1.altasSalonAction" name="altasSalonForm" scope="request" input="/salon.jsp"/>
+    <action path="/altasArtista" type="mypackage1.altasArtistaAction" name="altasArtistaForm" scope="request" input="/dashboard.jsp"/>
+    <action path="/altasCategoria" type="mypackage1.altasCategoriaAction" name="altasCategoriaForm" input="/categoria.jsp" scope="request"/>
+    <action path="/altasComprador" type="mypackage1.altasCompradorAction" name="altasCompradorForm" input="/comprador.jsp" scope="request"/>
+    <action path="/altasPropietario" type="mypackage1.altasPropietarioAction" name="altasPropietarioForm" input="/propietario.jsp" scope="request"/>
+    <action path="/altasPago" type="mypackage1.altasPagoAction" name="altasPagoForm" input="/pago.jsp" scope="request"/>
+    <action path="/altasEnvio" type="mypackage1.altasEnvioAction" name="altasEnvioForm" input="/envio.jsp" scope="request"/>
+    <action path="/altasExposicion" type="mypackage1.altasExposicionAction" name="altasExposicionForm" input="/exposicion.jsp" scope="request"/>
+    <action path="/altasObra" type="mypackage1.altasObraAction" name="altasObraForm" input="/obra.jsp" scope="request"/>
+    <action path="/navbar" type="mypackage1.navbarAction" name="navbarForm" scope="request"/>
+    <action path="/listado" type="mypackage1.listadoAction" name="listadoForm" scope="request"/>
+    <action path="/altasFactura" type="mypackage1.altasFacturaAction" name="altasFacturaForm" input="/factura.jsp" scope="request"/>
+    <action path="/altasOrden" type="mypackage1.altasOrdenAction" name="altasOrdenForm" input="/orden.jsp" scope="request"/>
+  </action-mappings>
+  <message-resources parameter="mypackage1.ApplicationResources"/>
+</struts-config>
